@@ -1,0 +1,595 @@
+{
+  "input": "E:\\智能体备份\\AI设计师助手（6.8）\\生成结果输出\\amazon图片提取\\B0B72KR1GW_20260608_180113\\linkfox-amazon-reviews__20260608_180336_47c154__reviews_linkfox_raw.json",
+  "scope": "single_asin:B0B72KR1GW",
+  "distinct_asin_count": 1,
+  "distinct_asin": {
+    "B0B72KR1GW": 188
+  },
+  "raw_distinct_asin_count": 3,
+  "raw_distinct_asin": {
+    "B0B72KR1GW": 188,
+    "B0DW9JNVFT": 16,
+    "B0DW9KY6PF": 12
+  },
+  "global": {
+    "available": true,
+    "rating": 4.7,
+    "rating_count": 2201,
+    "histogram": [
+      {
+        "star": 5,
+        "percent": 86.0
+      },
+      {
+        "star": 4,
+        "percent": 8.0
+      },
+      {
+        "star": 3,
+        "percent": 3.0
+      },
+      {
+        "star": 2,
+        "percent": 1.0
+      },
+      {
+        "star": 1,
+        "percent": 2.0
+      }
+    ],
+    "avg": 4.7,
+    "avg_from_histogram": 4.75,
+    "low_star_ratio_percent": 3.0,
+    "source": "amazon_page_global_ratings"
+  },
+  "sample": {
+    "scope": "single_asin:B0B72KR1GW",
+    "total": 188,
+    "avg": 3.55,
+    "low_star_ratio_percent": 27.7,
+    "caveat": "样本均分/低星比受抓取星级配额影响（每星级上限 100 条，常按正/负配额抓取），会系统性放大低星占比，可能显著低于全局综合评分，仅用于挖掘抱怨主题。"
+  },
+  "total": 188,
+  "avg": 3.55,
+  "star_counts": {
+    "5": 78,
+    "4": 36,
+    "3": 22,
+    "2": 15,
+    "1": 37
+  },
+  "histogram": [
+    {
+      "star": 5,
+      "percent": 41.5
+    },
+    {
+      "star": 4,
+      "percent": 19.1
+    },
+    {
+      "star": 3,
+      "percent": 11.7
+    },
+    {
+      "star": 2,
+      "percent": 8.0
+    },
+    {
+      "star": 1,
+      "percent": 19.7
+    }
+  ],
+  "low_star_count": 52,
+  "low_star_ratio_percent": 27.7,
+  "theme_summary": {},
+  "positive_keywords": [
+    {
+      "text": "drying towel",
+      "count": 31
+    },
+    {
+      "text": "towel",
+      "count": 30
+    },
+    {
+      "text": "car",
+      "count": 21
+    },
+    {
+      "text": "water",
+      "count": 21
+    },
+    {
+      "text": "dry",
+      "count": 19
+    },
+    {
+      "text": "great",
+      "count": 19
+    },
+    {
+      "text": "good",
+      "count": 17
+    },
+    {
+      "text": "best",
+      "count": 14
+    },
+    {
+      "text": "dried",
+      "count": 14
+    },
+    {
+      "text": "towels",
+      "count": 14
+    },
+    {
+      "text": "not streaks",
+      "count": 14
+    },
+    {
+      "text": "works great",
+      "count": 14
+    },
+    {
+      "text": "works",
+      "count": 12
+    },
+    {
+      "text": "best drying",
+      "count": 12
+    },
+    {
+      "text": "advertised",
+      "count": 11
+    },
+    {
+      "text": "truck",
+      "count": 10
+    },
+    {
+      "text": "cars",
+      "count": 10
+    },
+    {
+      "text": "amazing",
+      "count": 10
+    },
+    {
+      "text": "recommend",
+      "count": 9
+    },
+    {
+      "text": "left",
+      "count": 9
+    }
+  ],
+  "critical_keywords": [
+    {
+      "text": "towel",
+      "count": 33
+    },
+    {
+      "text": "car",
+      "count": 19
+    },
+    {
+      "text": "water",
+      "count": 10
+    },
+    {
+      "text": "scratches",
+      "count": 9
+    },
+    {
+      "text": "not worth",
+      "count": 8
+    },
+    {
+      "text": "towels",
+      "count": 8
+    },
+    {
+      "text": "leaves streaks",
+      "count": 8
+    },
+    {
+      "text": "better",
+      "count": 7
+    },
+    {
+      "text": "drying",
+      "count": 7
+    },
+    {
+      "text": "left",
+      "count": 7
+    },
+    {
+      "text": "black",
+      "count": 7
+    },
+    {
+      "text": "drying towel",
+      "count": 7
+    },
+    {
+      "text": "streaks",
+      "count": 6
+    },
+    {
+      "text": "good",
+      "count": 6
+    },
+    {
+      "text": "package",
+      "count": 6
+    },
+    {
+      "text": "not dry",
+      "count": 5
+    },
+    {
+      "text": "first",
+      "count": 5
+    },
+    {
+      "text": "dry",
+      "count": 5
+    },
+    {
+      "text": "brand",
+      "count": 5
+    },
+    {
+      "text": "heavy",
+      "count": 5
+    }
+  ],
+  "word_cloud": [
+    {
+      "text": "towel",
+      "count": 33,
+      "sentiment": "neg",
+      "level": 3
+    },
+    {
+      "text": "drying towel",
+      "count": 31,
+      "sentiment": "pos",
+      "level": 3
+    },
+    {
+      "text": "towel",
+      "count": 30,
+      "sentiment": "pos",
+      "level": 3
+    },
+    {
+      "text": "car",
+      "count": 21,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "water",
+      "count": 21,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "dry",
+      "count": 19,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "great",
+      "count": 19,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "car",
+      "count": 19,
+      "sentiment": "neg",
+      "level": 2
+    },
+    {
+      "text": "good",
+      "count": 17,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "best",
+      "count": 14,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "dried",
+      "count": 14,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "towels",
+      "count": 14,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "not streaks",
+      "count": 14,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "works great",
+      "count": 14,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "works",
+      "count": 12,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "best drying",
+      "count": 12,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "advertised",
+      "count": 11,
+      "sentiment": "pos",
+      "level": 2
+    },
+    {
+      "text": "truck",
+      "count": 10,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "cars",
+      "count": 10,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "amazing",
+      "count": 10,
+      "sentiment": "pos",
+      "level": 1
+    },
+    {
+      "text": "water",
+      "count": 10,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "scratches",
+      "count": 9,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "not worth",
+      "count": 8,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "towels",
+      "count": 8,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "leaves streaks",
+      "count": 8,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "better",
+      "count": 7,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "drying",
+      "count": 7,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "left",
+      "count": 7,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "black",
+      "count": 7,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "drying towel",
+      "count": 7,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "streaks",
+      "count": 6,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "good",
+      "count": 6,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "package",
+      "count": 6,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "not dry",
+      "count": 5,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "first",
+      "count": 5,
+      "sentiment": "neg",
+      "level": 1
+    },
+    {
+      "text": "dry",
+      "count": 5,
+      "sentiment": "neg",
+      "level": 1
+    }
+  ],
+  "variant_breakdown": [
+    {
+      "label": "B0B72KR1GW",
+      "count": 188,
+      "avg": 3.55,
+      "low_star_pct": 27.7
+    }
+  ],
+  "variation_breakdown": [
+    {
+      "label": "（未知）",
+      "count": 188,
+      "avg": 3.55,
+      "low_star_pct": 27.7
+    }
+  ],
+  "country_breakdown": [
+    {
+      "label": "us",
+      "count": 188,
+      "avg": 3.55,
+      "low_star_pct": 27.7
+    }
+  ],
+  "vp_breakdown": [
+    {
+      "label": "Verified Purchase",
+      "count": 180,
+      "avg": 3.54,
+      "low_star_pct": 27.8
+    },
+    {
+      "label": "非 VP",
+      "count": 8,
+      "avg": 3.62,
+      "low_star_pct": 25.0
+    }
+  ],
+  "trend": {
+    "window_days": 90,
+    "max_date": "2026-06-03",
+    "recent_label": "近 90 天",
+    "recent_count": 69,
+    "recent_avg": 4.45,
+    "recent_low_pct": 13.0,
+    "hist_label": "90 天前",
+    "hist_count": 119,
+    "hist_avg": 3.03,
+    "hist_low_pct": 36.1,
+    "delta_low_pct": -23.1,
+    "verdict": "近期低星比下降，口碑趋于改善"
+  },
+  "real_voice_candidates": [
+    {
+      "stars": 1,
+      "variation": "",
+      "asin": "B0B72KR1GW",
+      "text": "DO NOT BUY THIS TOWEL it is a scam it scratches your paint and leaves streaks. It doesn’t soak up the water like it says it does!"
+    },
+    {
+      "stars": 1,
+      "variation": "",
+      "asin": "B0B72KR1GW",
+      "text": "I’m almost positive this towel put a couple scratches on my truck, I won’t be using this again"
+    },
+    {
+      "stars": 1,
+      "variation": "",
+      "asin": "B0B72KR1GW",
+      "text": "Towels are no different than most towels on Amazon. To be honest nothing beats Adams Polish towels. Gave Blackline a shot because of their marketing on my feed and i can tell you their towels are not a big as you think they are or in comparison to other manufactuers. Contacted customer service which can only be done by email to see if i could exchange my unopened towels for the bigger more expensi"
+    },
+    {
+      "stars": 2,
+      "variation": "",
+      "asin": "B0B72KR1GW",
+      "text": "It works ok in the beginning but gets soaked pretty quick. No worth the money"
+    },
+    {
+      "stars": 2,
+      "variation": "",
+      "asin": "B0B72KR1GW",
+      "text": "I don’t see all the hype from the Facebook reviews. Definitely doesn’t do what has been shown in the ads. Just a normal overpriced towel"
+    },
+    {
+      "stars": 2,
+      "variation": "",
+      "asin": "B0B72KR1GW",
+      "text": "its alright  leaves streaks half way drying my truck its very hard Wringing it out its too thick"
+    },
+    {
+      "stars": 3,
+      "variation": "",
+      "asin": "B0B72KR1GW",
+      "text": "I have a big truck and when the towel is dry, it works incredible for a minute until it accumulates a lot of water. It is very hard to squeeze and all it is you're doing is spreading water across the whole truck."
+    },
+    {
+      "stars": 3,
+      "variation": "",
+      "asin": "B0B72KR1GW",
+      "text": "Once when towel gets wet it is very hard to dry, even the spin cycle on washing machine would not take the water out, I know it’s made to hold water but there has to be a easier way."
+    },
+    {
+      "stars": 3,
+      "variation": "",
+      "asin": "B0B72KR1GW",
+      "text": "Compared to other towels I've purchased, the 1300GSM claim seems to be under what my other drying towels feel like. I don't have any way to scientifically test this, but it is a little disappointing.Overall, the fabric is good enough to fully dry off one car, but when I needed to do more than 1 sedan-sized vehicle, the towel started struggling, which adds to my assumption that the 1300GSM claim ma"
+    },
+    {
+      "stars": 5,
+      "variation": "",
+      "asin": "B0B72KR1GW",
+      "text": "Must buy! Dry your car fast and easy, with one pass."
+    },
+    {
+      "stars": 5,
+      "variation": "",
+      "asin": "B0B72KR1GW",
+      "text": "Really great. One car only. Should have ordered two. Takes at least two dryer cycles or a few days before you can use it again"
+    },
+    {
+      "stars": 5,
+      "variation": "",
+      "asin": "B0B72KR1GW",
+      "text": "This is an amazing product! It actually works!"
+    }
+  ],
+  "note": "【双口径】global=全局综合评分（覆盖全部评论，产品真实口碑主口径）；顶层 total/avg/histogram/low_star_* 与 sample 块均为抓取样本口径。样本受星级配额抓取放大低星，样本均分**不等同于** Amazon 页面全局评分，撰写报告/评分时综合分一律取 global，样本仅用于挖抱怨主题与真实原话。scope=all_variants 时样本覆盖文件内全部 ASIN（同系列不同款式/颜色）；关键词/主题均为数据驱动，可泛化任意品类。"
+}

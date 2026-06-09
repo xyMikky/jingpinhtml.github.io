@@ -1,0 +1,95 @@
+{
+  "success": true,
+  "source": {
+    "kind": "url",
+    "value": "https://www.amazon.com/dp/B0B72KR1GW",
+    "final_url": "https://www.amazon.com/dp/B0B72KR1GW"
+  },
+  "base_url": "https://www.amazon.com/dp/B0B72KR1GW",
+  "output_dir": ".",
+  "selectors_hit": {
+    "gallery": {
+      "colorImages.initial": 6,
+      "#landingImage": 0,
+      "#altImages li.image.item img": 0,
+      "#altImages img": 0,
+      "#altImages [data-old-hires]": 0,
+      "#altImages [data-a-dynamic-image]": 0
+    },
+    "aplus": {
+      "aplus_root": 1,
+      "aplus_module_top_level": 6,
+      "groups_built_from_modules": 6
+    }
+  },
+  "gallery": {
+    "url_count": 6,
+    "downloaded_count": 6,
+    "files": [
+      "gallery/01_e00251b926.jpg",
+      "gallery/02_312a787331.jpg",
+      "gallery/03_21149f1514.jpg",
+      "gallery/04_ac91f9a305.jpg",
+      "gallery/05_ffe9754424.jpg",
+      "gallery/06_724e576cec.jpg"
+    ],
+    "vertical_image": "gallery_vertical.png"
+  },
+  "aplus": {
+    "group_count": 6,
+    "groups": [
+      {
+        "index": 1,
+        "url_count": 1,
+        "downloaded_count": 1,
+        "files": [
+          "aplus/g01_01_b90d53311f.png"
+        ]
+      },
+      {
+        "index": 2,
+        "url_count": 1,
+        "downloaded_count": 1,
+        "files": [
+          "aplus/g02_01_0d2756cc6e.png"
+        ]
+      },
+      {
+        "index": 3,
+        "url_count": 1,
+        "downloaded_count": 1,
+        "files": [
+          "aplus/g03_01_8e28d5743a.png"
+        ]
+      },
+      {
+        "index": 4,
+        "url_count": 1,
+        "downloaded_count": 1,
+        "files": [
+          "aplus/g04_01_d3c94213e0.png"
+        ]
+      },
+      {
+        "index": 5,
+        "url_count": 1,
+        "downloaded_count": 1,
+        "files": [
+          "aplus/g05_01_f847e2b189.png"
+        ]
+      },
+      {
+        "index": 6,
+        "url_count": 1,
+        "downloaded_count": 1,
+        "files": [
+          "aplus/g06_01_ed4675f6dc.png"
+        ]
+      }
+    ],
+    "url_count": 6,
+    "downloaded_count": 6,
+    "vertical_image": "aplus_vertical.png"
+  },
+  "errors": []
+}

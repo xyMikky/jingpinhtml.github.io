@@ -1,0 +1,1791 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>competitor_analysis</title>
+  <style>
+:root {
+  --bg: #f3f4f8;
+  --card: #ffffff;
+  --text: #101828;
+  --muted: #667085;
+  --line: #e4e7ec;
+  --brand: #2563eb;
+  --accent: #e11d48;
+  --ok: #16a34a;
+  --shadow: 0 8px 24px rgba(16, 24, 40, 0.06);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: radial-gradient(circle at top left, #eef2ff 0, #f3f4f8 36%, #f8fafc 100%);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+}
+.page {
+  width: calc(100vw - 16px);
+  max-width: none;
+  margin: 8px auto 20px;
+  padding: 0 4px;
+}
+.layout {
+  display: grid;
+  grid-template-columns: 560px minmax(0, 1fr);
+  gap: 12px;
+}
+.panel {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+}
+.left-wrap {
+  position: sticky;
+  top: 12px;
+  align-self: start;
+  padding: 10px;
+  max-height: calc(100vh - 24px);
+  overflow: auto;
+}
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #344054;
+  margin: 8px 2px 10px;
+}
+.icon-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 99px;
+  background: linear-gradient(135deg, var(--brand), var(--accent));
+}
+.gallery-preview {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f8fafc;
+}
+.gallery-main {
+  width: 100%;
+  max-height: 760px;
+  object-fit: contain;
+  background: #f8fafc;
+  display: block;
+}
+.thumbs {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6px;
+  padding: 8px;
+  border-top: 1px solid var(--line);
+}
+.thumbs img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.thumbs img.active {
+  border-color: var(--brand);
+}
+.aplus-stream {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+}
+.aplus-card {
+  border: 0;
+  border-radius: 0;
+  overflow: hidden;
+  margin: 0;
+  background: #fff;
+}
+.aplus-head {
+  display: none;
+}
+.aplus-stage {
+  position: relative;
+  min-height: 0;
+  background: transparent;
+}
+.aplus-slide {
+  display: none;
+  position: relative;
+}
+.aplus-slide.active {
+  display: block;
+}
+.aplus-slide img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.aplus-tag {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  padding: 4px 10px;
+  background: rgba(15, 23, 42, 0.82);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  border-radius: 6px;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  pointer-events: none;
+  z-index: 2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+}
+.aplus-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 99px;
+  border: 0;
+  background: rgba(15, 23, 42, 0.65);
+  color: #fff;
+  cursor: pointer;
+}
+.aplus-prev { left: 8px; }
+.aplus-next { right: 8px; }
+.aplus-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  padding: 0;
+  pointer-events: auto;
+}
+.aplus-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 99px;
+  background: #cbd5e1;
+  cursor: pointer;
+}
+.aplus-dot.active {
+  width: 20px;
+  border-radius: 12px;
+  background: #2563eb;
+}
+.right-wrap {
+  padding: 12px;
+}
+.hero {
+  padding: 14px;
+  margin-bottom: 12px;
+  background: linear-gradient(135deg, #111827, #1f2937 46%, #334155);
+  color: #fff;
+  border-radius: 14px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.hero-text { flex: 1 1 360px; min-width: 0; }
+.hero h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.35;
+}
+.hero p {
+  margin: 8px 0 0;
+  color: #cbd5e1;
+  font-size: 13px;
+}
+.hero-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #ff9900 0%, #ff6f00 100%);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  white-space: nowrap;
+  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(255, 111, 0, 0.25);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+  align-self: center;
+}
+.hero-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(255, 111, 0, 0.45);
+  filter: brightness(1.05);
+}
+.hero-link .hl-arrow {
+  font-size: 14px;
+  font-weight: 800;
+  margin-left: 2px;
+}
+/* 浮动悬浮按钮：仅在滚动出 hero 区域后才出现，避免与 hero 内按钮在顶部重复 */
+.amazon-fab {
+  position: fixed;
+  top: 14px;
+  right: 16px;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: rgba(15, 23, 42, 0.92);
+  color: #fff;
+  border: 1px solid rgba(255, 153, 0, 0.55);
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.22);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-6px);
+  transition: opacity 0.25s ease, transform 0.25s ease, background 0.15s ease, border-color 0.15s ease;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.amazon-fab.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.amazon-fab:hover {
+  background: rgba(255, 111, 0, 0.96);
+  border-color: rgba(255, 255, 255, 0.6);
+}
+.amazon-fab .fab-icon { font-size: 14px; }
+/* 交互式评论看板入口：紫色变体，与 Amazon 橙形成区分 */
+.hero-link.hero-dash {
+  background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.28);
+}
+.hero-link.hero-dash:hover {
+  box-shadow: 0 8px 18px rgba(79, 70, 229, 0.45);
+}
+.amazon-fab.dash-fab {
+  top: 54px;
+  border-color: rgba(124, 58, 237, 0.6);
+}
+.amazon-fab.dash-fab:hover {
+  background: rgba(79, 70, 229, 0.96);
+}
+/* KV-table 内 ASIN 等可点击值的链接样式 */
+.kv-link {
+  color: #1d4ed8;
+  text-decoration: none;
+  font-weight: 700;
+  border-bottom: 1px dashed rgba(29, 78, 216, 0.4);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.kv-link:hover {
+  color: #ea580c;
+  border-color: #ea580c;
+}
+.kv-link-arrow {
+  display: inline-block;
+  margin-left: 4px;
+  font-size: 11px;
+  color: #ea580c;
+  font-weight: 800;
+}
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.summary {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 12px;
+  background: #fff;
+}
+.summary .k {
+  font-size: 12px;
+  color: var(--muted);
+}
+.summary .v {
+  margin-top: 4px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.visual-board {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.visual-block {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 14px;
+}
+.visual-block h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  line-height: 1.35;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.visual-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+.mini-card {
+  min-height: 118px;
+  border: 1px solid #eceff3;
+  border-radius: 14px;
+  background: #f8f8fb;
+  padding: 12px;
+}
+.mini-card-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+  font-weight: 800;
+  color: #111827;
+}
+.mini-card-title .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #111827;
+}
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 2px solid #111827;
+  background: #fff;
+  color: #b91c1c;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.pill.dark {
+  background: #050505;
+  color: #fff;
+}
+.mini-card p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.65;
+  color: #344054;
+}
+.swatches {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+.swatch {
+  width: 22px;
+  height: 22px;
+  border-radius: 2px;
+  border: 1px solid #9ca3af;
+}
+.score-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.score-card {
+  border-radius: 14px;
+  border: 1px solid #eceff3;
+  background: #fbfcff;
+  padding: 10px 12px;
+}
+.score-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 14px;
+  font-weight: 800;
+}
+.score-num {
+  color: #2563eb;
+  white-space: nowrap;
+}
+.bar {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 9px 0 7px;
+}
+.bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #2563eb, #e11d48);
+  border-radius: 999px;
+}
+.score-card p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.55;
+  color: #475467;
+}
+.action-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.action-card {
+  border-radius: 14px;
+  padding: 12px;
+  border: 1px solid #eceff3;
+  background: #fff;
+}
+.action-card.good { background: #f0fdf4; }
+.action-card.bad { background: #fff1f2; }
+.action-card.borrow { background: #eff6ff; }
+.action-card.avoid { background: #fff7ed; }
+.action-card h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+.action-card ul {
+  margin: 0 0 0 18px;
+  padding: 0;
+  font-size: 13px;
+  line-height: 1.65;
+}
+.kv-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 13px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.kv-table tr + tr td { border-top: 1px solid var(--line); }
+.kv-table td {
+  padding: 10px 14px;
+  vertical-align: top;
+}
+.kv-table .kv-k {
+  width: 28%;
+  background: #f8fafc;
+  color: var(--muted);
+  font-weight: 600;
+}
+.kv-table .kv-v {
+  color: var(--text);
+}
+.kv-table .kv-sub td {
+  background: #eef2f7;
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: .02em;
+  padding: 7px 14px;
+}
+.info-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.info-list li {
+  display: flex;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--line);
+  font-size: 13px;
+  line-height: 1.65;
+}
+.info-list li:last-child { border-bottom: none; }
+.info-list .li-icon {
+  flex: 0 0 22px;
+  color: var(--brand);
+}
+.visual-quote {
+  margin: 0;
+  padding: 14px 16px;
+  border-left: 4px solid var(--brand);
+  background: #eff6ff;
+  border-radius: 10px;
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.7;
+}
+.visual-warn {
+  padding: 12px 14px;
+  background: #fff7ed;
+  border: 1px dashed #fb923c;
+  border-radius: 10px;
+  font-size: 13px;
+  color: #b45309;
+}
+.visual-warn code {
+  background: #fde68a;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.step-ladder {
+  display: grid;
+  gap: 10px;
+}
+.step-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 14px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+  align-items: center;
+}
+.step-num {
+  min-width: 50px;
+  height: 50px;
+  padding: 0 14px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+  color: #fff;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.step-num.is-long {
+  font-size: 13px;
+  letter-spacing: 0.3px;
+}
+.step-body p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.step-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text);
+}
+.layer-stack {
+  display: grid;
+  gap: 8px;
+}
+.layer-row {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: #f8fafc;
+  border-left: 4px solid var(--layer-color, var(--brand));
+}
+.layer-pill {
+  background: var(--layer-color, var(--brand));
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 4px 10px;
+  align-self: start;
+  width: fit-content;
+}
+.layer-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+.layer-body p {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.two-col-card {
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.two-col-card.seller { background: #f0f9ff; border-color: #bae6fd; }
+.two-col-card.buyer  { background: #fef3f2; border-color: #fecdd3; }
+.two-col-card.good   { background: #f0fdf4; border-color: #bbf7d0; }
+.two-col-card.bad    { background: #fef2f2; border-color: #fecaca; }
+.two-col-card h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: var(--text);
+}
+.two-col-card ul {
+  margin: 0 0 0 18px;
+  padding: 0;
+  font-size: 13px;
+  line-height: 1.7;
+}
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+}
+.metric-card {
+  position: relative;
+  padding: 14px 14px 14px 18px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.metric-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--metric-color, var(--brand));
+}
+.metric-label {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.metric-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text);
+  line-height: 1.45;
+}
+.metric-hint {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.keyword-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.kw-pill {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--text);
+}
+.kw-pill.kw-l1 {
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 11px;
+}
+.kw-pill.kw-l2 {
+  background: #eff6ff;
+  border-color: #bfdbfe;
+  color: #1d4ed8;
+}
+.kw-pill.kw-l3 {
+  background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+  border-color: transparent;
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+}
+/* 重点强化 ================================================================ */
+.hl {
+  font-weight: 700;
+  color: #0f172a;
+  background: linear-gradient(180deg, transparent 60%, #fde68a 60%);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+.hl-mark {
+  background: #fef08a;
+  color: #78350f;
+  padding: 0 4px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.num-pct {
+  color: #1d4ed8;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.num-rank {
+  color: #b91c1c;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.num-star {
+  color: #b45309;
+  font-weight: 700;
+  background: #fef3c7;
+  padding: 0 6px;
+  border-radius: 999px;
+  font-variant-numeric: tabular-nums;
+}
+.verdict-good {
+  color: #15803d;
+  font-weight: 700;
+}
+.verdict-warn {
+  color: #b45309;
+  font-weight: 700;
+}
+.verdict-bad {
+  color: #b91c1c;
+  font-weight: 700;
+}
+/* verdict-headline 「问题本质 punchline」开门见山大字卡 */
+.verdict-host {
+  border-left: 6px solid var(--vh-accent, #b91c1c);
+  background: linear-gradient(135deg, #fff 0%, #fef2f2 100%);
+}
+.verdict-headline {
+  padding: 4px 0;
+}
+.vh-tag {
+  display: inline-block;
+  background: var(--vh-accent, #b91c1c);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  padding: 4px 12px;
+  border-radius: 999px;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+.vh-text {
+  font-size: 22px;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+.vh-text .hl {
+  background: linear-gradient(180deg, transparent 55%, #fde68a 55%);
+}
+/* best-for-grid 适合谁 / 不适合谁 */
+.best-for-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.bf-card {
+  border-radius: 14px;
+  padding: 14px;
+  border: 1px solid var(--line);
+}
+.bf-card.best { background: #f0fdf4; border-color: #86efac; }
+.bf-card.avoid { background: #fef2f2; border-color: #fca5a5; }
+.bf-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.bf-badge {
+  font-size: 11px;
+  font-weight: 800;
+  padding: 3px 10px;
+  border-radius: 999px;
+  letter-spacing: 0.5px;
+}
+.bf-card.best .bf-badge { background: #16a34a; color: #fff; }
+.bf-card.avoid .bf-badge { background: #dc2626; color: #fff; }
+.bf-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+}
+.bf-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.bf-item {
+  padding: 8px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.06);
+}
+.bf-item:last-child { border-bottom: none; }
+.bf-label {
+  font-size: 13px;
+  color: var(--text);
+  font-weight: 600;
+}
+.bf-hint {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.bf-note {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: #f1f5f9;
+  border-radius: 10px;
+  font-size: 13px;
+  color: var(--muted);
+  border-left: 3px solid #94a3b8;
+}
+/* feature-breakdown 结构解释三段式 */
+.feature-breakdown {
+  display: grid;
+  gap: 10px;
+}
+.fb-card {
+  padding: 14px 16px;
+  background: linear-gradient(135deg, #eff6ff 0%, #fff 100%);
+  border: 1px solid #bfdbfe;
+  border-radius: 14px;
+}
+.fb-part {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+}
+.fb-flow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+.fb-step {
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid var(--line);
+  color: var(--text);
+  font-weight: 600;
+}
+.fb-step.mech { border-color: #93c5fd; color: #1d4ed8; }
+.fb-step.feel { border-color: #86efac; color: #15803d; background: #f0fdf4; }
+.fb-arrow {
+  color: #6b7280;
+  font-weight: 800;
+  font-size: 16px;
+}
+.fb-en {
+  margin-top: 8px;
+  padding: 6px 10px;
+  background: #0f172a;
+  color: #e2e8f0;
+  border-radius: 8px;
+  font-size: 12px;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  letter-spacing: 0.3px;
+}
+/* look-suite 场景图 Look 命名 */
+.look-suite {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+.ls-card {
+  padding: 14px 12px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--ls-accent, var(--brand));
+  text-align: center;
+}
+.ls-icon {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+.ls-name {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text);
+}
+.ls-en {
+  margin-top: 4px;
+  font-size: 11px;
+  color: var(--ls-accent, var(--muted));
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  letter-spacing: 0.5px;
+}
+.ls-card p {
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+/* w5h2-grid 客户购买行为 */
+.w5h2-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+}
+.w5h2-card {
+  padding: 14px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-top: 4px solid #2563eb;
+}
+.w5h2-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.w5h2-key {
+  font-size: 16px;
+  font-weight: 800;
+  color: #1d4ed8;
+}
+.w5h2-zh {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+}
+.w5h2-q {
+  margin: 0 0 8px;
+  font-size: 12px;
+  color: #64748b;
+}
+.w5h2-finding {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--text);
+}
+.w5h2-evidence {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+/* persona-cards 客户画像 */
+.persona-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
+}
+.persona-card {
+  padding: 14px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid var(--line);
+}
+.persona-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.persona-emoji {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  background: #eff6ff;
+  font-size: 18px;
+}
+.persona-name {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text);
+}
+.persona-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+.persona-tag {
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  color: #475569;
+  font-size: 11px;
+  font-weight: 700;
+}
+.persona-row {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 8px;
+  padding: 6px 0;
+  border-top: 1px dashed var(--line);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.persona-row .label {
+  color: var(--muted);
+  font-weight: 700;
+}
+.persona-row .value {
+  color: var(--text);
+}
+.persona-quote {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: #f8fafc;
+  color: #475569;
+  font-size: 12px;
+  line-height: 1.65;
+  border-left: 3px solid #94a3b8;
+}
+/* kano-model 卡诺模型 */
+.kano-grid {
+  display: grid;
+  gap: 10px;
+}
+.kano-group {
+  padding: 14px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--kano-color, #64748b);
+}
+.kano-title {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--kano-bg, #f1f5f9);
+  color: var(--kano-color, #475569);
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.kano-group ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+.kano-need {
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: #f8fafc;
+  border: 1px solid #eef2f7;
+}
+.kano-need strong {
+  display: block;
+  font-size: 13px;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+.kano-need p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+/* dev-watchpoints 产品开发注意点 */
+.watchpoint-grid {
+  display: grid;
+  gap: 10px;
+}
+.watchpoint-card {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 12px;
+  padding: 14px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--wp-color, #64748b);
+}
+.watchpoint-priority {
+  align-self: start;
+  text-align: center;
+  padding: 6px 8px;
+  border-radius: 999px;
+  background: var(--wp-bg, #f1f5f9);
+  color: var(--wp-color, #475569);
+  font-size: 12px;
+  font-weight: 900;
+}
+.watchpoint-category {
+  font-size: 11px;
+  color: var(--muted);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  margin-bottom: 4px;
+}
+.watchpoint-point {
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.5;
+}
+.watchpoint-rationale {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--muted);
+}
+/* review-sentiment 评论情感解析 */
+.rs-hist {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 14px;
+  padding: 12px 14px;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+}
+.rs-hist-row {
+  display: grid;
+  grid-template-columns: 36px 1fr 48px;
+  gap: 10px;
+  align-items: center;
+  font-size: 12px;
+}
+.rs-hist-label {
+  font-weight: 700;
+  color: var(--text);
+}
+.rs-hist-bar {
+  height: 10px;
+  background: #e2e8f0;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.rs-hist-bar span {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.5s ease;
+}
+.rs-hist-pct {
+  font-weight: 700;
+  color: var(--muted);
+  text-align: right;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+.rs-kw-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+.rs-kw-title {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.rs-kw-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.rs-kw {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid;
+}
+.rs-kw.pos {
+  background: #f0fdf4;
+  color: #15803d;
+  border-color: #86efac;
+}
+.rs-kw.neg {
+  background: #fef2f2;
+  color: #b91c1c;
+  border-color: #fca5a5;
+}
+.rs-kw-count {
+  font-size: 10px;
+  font-weight: 800;
+  padding: 1px 5px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.08);
+}
+/* review-sentiment 内嵌加权词云 */
+.rs-cloud-title {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.rs-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+  background: #f8fafc;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  line-height: 1.5;
+}
+.rs-cloud-pill {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 2px 10px;
+  line-height: 1.4;
+}
+.rs-cloud-pill.lv1 { font-size: 12px; opacity: 0.78; }
+.rs-cloud-pill.lv2 { font-size: 16px; }
+.rs-cloud-pill.lv3 { font-size: 22px; }
+.rs-cloud-pill.pos {
+  background: #f0fdf4;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+.rs-cloud-pill.neg {
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+.rs-cloud-count {
+  font-size: 0.62em;
+  font-weight: 800;
+  opacity: 0.7;
+}
+.rs-cloud-legend {
+  display: flex;
+  gap: 14px;
+  margin: -6px 0 14px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.rs-cloud-legend .pos b { color: #15803d; }
+.rs-cloud-legend .neg b { color: #b91c1c; }
+.rs-voice-list {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.rs-voice {
+  margin: 0;
+  padding: 12px 14px;
+  background: #fffbeb;
+  border-left: 4px solid #f59e0b;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--text);
+}
+.rs-voice p {
+  margin: 0;
+}
+.rs-voice-stars {
+  font-size: 13px;
+  color: #f59e0b;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+.rs-voice-dim {
+  color: #fde68a;
+}
+.rs-voice-meta {
+  margin-top: 6px;
+  font-size: 11px;
+  color: var(--muted);
+}
+.rs-gap-wrap {
+  margin-bottom: 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.rs-gap-header {
+  padding: 10px 14px;
+  background: linear-gradient(135deg, #fef2f2, #fff);
+  font-weight: 700;
+  font-size: 13px;
+  color: #b91c1c;
+  border-bottom: 1px solid var(--line);
+}
+.rs-gap-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.rs-gap-table th {
+  background: #f8fafc;
+  padding: 8px 10px;
+  text-align: left;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid var(--line);
+}
+.rs-gap-table td {
+  padding: 10px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.06);
+  vertical-align: top;
+  line-height: 1.6;
+}
+.rs-gap-table tr:last-child td { border-bottom: none; }
+.rs-gap-page { background: #f0f9ff; color: #0369a1; width: 45%; }
+.rs-gap-arrow {
+  text-align: center;
+  font-weight: 800;
+  color: #94a3b8;
+  width: 30px;
+}
+.rs-gap-review { background: #fef2f2; color: #b91c1c; width: 45%; }
+.rs-summary {
+  padding: 10px 14px;
+  background: #f1f5f9;
+  border-radius: 10px;
+  font-size: 13px;
+  color: var(--muted);
+  border-left: 3px solid #94a3b8;
+  line-height: 1.7;
+}
+.content-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  padding: 18px 20px;
+}
+.content-card h1,
+.content-card h2,
+.content-card h3 {
+  line-height: 1.35;
+}
+.content-card h1 {
+  margin-top: 0;
+  border-bottom: 2px solid var(--line);
+  padding-bottom: 10px;
+}
+.content-card h2 {
+  border-left: 4px solid var(--brand);
+  padding-left: 10px;
+  margin-top: 24px;
+}
+.content-card table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0 14px;
+  font-size: 14px;
+}
+.content-card th,
+.content-card td {
+  border: 1px solid var(--line);
+  padding: 9px 10px;
+  vertical-align: top;
+}
+.content-card th {
+  background: #f9fafb;
+  text-align: left;
+}
+.meta {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.meta-card {
+  margin-top: 10px;
+  padding: 10px 14px;
+  background: #fff;
+  border: 1px dashed var(--line);
+  border-radius: 10px;
+  color: var(--muted);
+  font-size: 12px;
+  text-align: right;
+}
+@media (max-width: 1200px) {
+  .layout { grid-template-columns: 1fr; }
+  .left-wrap { position: static; max-height: none; }
+  .summary-grid { grid-template-columns: repeat(2, 1fr); }
+  .visual-grid,
+  .score-grid,
+  .action-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+  <a class="amazon-fab dash-fab" href="review_dashboard.html" title="打开交互式评论分析看板"><span class="fab-icon">📊</span><span>评论看板</span><span>→</span></a><a class="amazon-fab" href="https://www.amazon.com/dp/B0B72KR1GW" target="_blank" rel="noopener" title="在 Amazon 打开当前商品页"><span class="fab-icon">🛒</span><span>查看原网址</span><span>↗</span></a>
+  <div class="page">
+    <div class="layout">
+      
+  <aside class="panel left-wrap">
+    <div class="section-title"><span class="icon-dot"></span>套图侧栏预览</div>
+    <div class="gallery-preview">
+      <img class="gallery-main" src="gallery/01_e00251b926.jpg" alt="gallery-main" />
+      <div class="thumbs">
+        <img src="gallery/01_e00251b926.jpg" data-full="gallery/01_e00251b926.jpg" class="active" alt="gallery-1" />
+<img src="gallery/02_312a787331.jpg" data-full="gallery/02_312a787331.jpg" class="" alt="gallery-2" />
+<img src="gallery/03_21149f1514.jpg" data-full="gallery/03_21149f1514.jpg" class="" alt="gallery-3" />
+<img src="gallery/04_ac91f9a305.jpg" data-full="gallery/04_ac91f9a305.jpg" class="" alt="gallery-4" />
+<img src="gallery/05_ffe9754424.jpg" data-full="gallery/05_ffe9754424.jpg" class="" alt="gallery-5" />
+<img src="gallery/06_724e576cec.jpg" data-full="gallery/06_724e576cec.jpg" class="" alt="gallery-6" />
+      </div>
+    </div>
+    <div class="section-title"><span class="icon-dot"></span>A+ 模块预览（含横向切换）</div>
+    <div class="aplus-stream">
+      
+      <div class="aplus-card" data-slider="0">
+        <div class="aplus-stage">
+          <div class="aplus-slide active"><img src="aplus/g01_01_b90d53311f.png" alt="aplus-g1-1" /><span class="aplus-tag">g01</span></div>
+          
+          
+        </div>
+      </div>
+      
+      <div class="aplus-card" data-slider="0">
+        <div class="aplus-stage">
+          <div class="aplus-slide active"><img src="aplus/g02_01_0d2756cc6e.png" alt="aplus-g2-1" /><span class="aplus-tag">g02</span></div>
+          
+          
+        </div>
+      </div>
+      
+      <div class="aplus-card" data-slider="0">
+        <div class="aplus-stage">
+          <div class="aplus-slide active"><img src="aplus/g03_01_8e28d5743a.png" alt="aplus-g3-1" /><span class="aplus-tag">g03</span></div>
+          
+          
+        </div>
+      </div>
+      
+      <div class="aplus-card" data-slider="0">
+        <div class="aplus-stage">
+          <div class="aplus-slide active"><img src="aplus/g04_01_d3c94213e0.png" alt="aplus-g4-1" /><span class="aplus-tag">g04</span></div>
+          
+          
+        </div>
+      </div>
+      
+      <div class="aplus-card" data-slider="0">
+        <div class="aplus-stage">
+          <div class="aplus-slide active"><img src="aplus/g05_01_f847e2b189.png" alt="aplus-g5-1" /><span class="aplus-tag">g05</span></div>
+          
+          
+        </div>
+      </div>
+      
+      <div class="aplus-card" data-slider="0">
+        <div class="aplus-stage">
+          <div class="aplus-slide active"><img src="aplus/g06_01_ed4675f6dc.png" alt="aplus-g6-1" /><span class="aplus-tag">g06</span></div>
+          
+          
+        </div>
+      </div>
+      
+    </div>
+  </aside>
+  
+      
+  <main class="right-wrap">
+    
+  <section class="hero">
+    <div class="hero-text">
+      <h1>📊 Amazon 竞品分析看板</h1>
+      <p>Blackline · 1300GSM 汽车擦干巾 · 汽车养护</p>
+    </div>
+    <a class="hero-link hero-dash" href="review_dashboard.html" title="打开交互式评论分析看板（多维图表 + 时间范围框选联动）"><span>📊 交互式评论看板</span><span class="hl-arrow">→</span></a>
+    <a class="hero-link" href="https://www.amazon.com/dp/B0B72KR1GW" target="_blank" rel="noopener" title="在 Amazon 打开当前商品页"><span>🛒 在 Amazon 打开</span><span class="hl-arrow">↗</span></a>
+  </section>
+  <section class="summary-grid">
+    <div class="summary"><div class="k">🏷 品牌</div><div class="v">Blackline</div></div><div class="summary"><div class="k">⭐ 星级 / 评价</div><div class="v">4.7 / 2201</div></div><div class="summary"><div class="k">🥇 类目排名</div><div class="v">#14 Microfiber Cloths</div></div><div class="summary"><div class="k">📉 加权总分</div><div class="v">3.7 / 5.0</div></div>
+  </section>
+  
+  
+    <section class="visual-board"><div class="visual-block verdict-host"><h2>〇 · 问题本质</h2>
+  <div class="verdict-headline" style="--vh-accent:#b91c1c">
+    <div class="vh-tag">问题本质</div>
+    <div class="vh-text">页面用社媒级绝对化话术把「ONE PASS 一遍 <span class="num-pct">100%</span> 擦干 / 零水痕 / 不划伤」预期拉满，<mark class="hl-mark">真实体验却在深色车漆条痕、大车难拧、划痕上跟不上</mark>——全局 <span class="num-star">4.7★</span> 很硬，失血点恰恰是被广告吸引、预期错配的买家。</div>
+  </div>
+  </div><div class="visual-block"><h2>一 · 基础信息卡</h2><table class="kv-table"><tr><td class="kv-k">ASIN</td><td class="kv-v"><a class="kv-link" href="https://www.amazon.com/dp/B0B72KR1GW" target="_blank" rel="noopener" title="在 Amazon 打开">B0B72KR1GW<span class="kv-link-arrow">↗</span></a></td></tr><tr><td class="kv-k">品牌</td><td class="kv-v">Blackline</td></tr><tr><td class="kv-k">星级 / 评价</td><td class="kv-v"><span class="num-star">4.7 ★</span> / 2201 评价</td></tr><tr><td class="kv-k">类目排名</td><td class="kv-v"><span class="num-rank">#648</span> Automotive / <span class="num-rank">#14</span> Exterior Car Care Microfiber Cloths</td></tr><tr><td class="kv-k">价格</td><td class="kv-v">未抓取到（评论显示属中高价位）</td></tr><tr><td class="kv-k">变体</td><td class="kv-v">3 色（Charcoal Grey / Aqua / Crimson）</td></tr><tr><td class="kv-k">套图数 / A+ 模块数</td><td class="kv-v">6 / 6（无独立视频封面）</td></tr><tr class="kv-sub"><td colspan="2">产品参数（自 Amazon 参数表自动提取）</td></tr><tr><td class="kv-k">颜色</td><td class="kv-v">Charcoal Grey</td></tr><tr><td class="kv-k">Towel form type</td><td class="kv-v">Cleaning Cloth</td></tr><tr><td class="kv-k">材质</td><td class="kv-v">Microfiber 1300GSM</td></tr><tr><td class="kv-k">产品尺寸</td><td class="kv-v">36&quot;L x 24&quot;W</td></tr><tr><td class="kv-k">件数</td><td class="kv-v">1</td></tr><tr><td class="kv-k">Customer Package Type</td><td class="kv-v">Bag Packaging</td></tr><tr><td class="kv-k">UPC</td><td class="kv-v">196852871032</td></tr><tr><td class="kv-k">Global Trade Identification Number</td><td class="kv-v">00196852871032</td></tr><tr><td class="kv-k">型号名称</td><td class="kv-v">BLDT-Parent</td></tr><tr><td class="kv-k">型号</td><td class="kv-v">BLDT-Parent</td></tr><tr><td class="kv-k">Age Range Description</td><td class="kv-v">All</td></tr><tr><td class="kv-k">Other Special Features of the Product</td><td class="kv-v">Multi Purpose</td></tr><tr><td class="kv-k">Pattern</td><td class="kv-v">Solid</td></tr><tr><td class="kv-k">Theme</td><td class="kv-v">car</td></tr><tr><td class="kv-k">Shape</td><td class="kv-v">Rectangular</td></tr><tr><td class="kv-k">Material Type</td><td class="kv-v">Microfiber 1300GSM</td></tr><tr><td class="kv-k">Fabric Weight</td><td class="kv-v">1300 Grams per Square Meter</td></tr><tr><td class="kv-k">Fabric Type</td><td class="kv-v">70% Polyester / 30% Polyamide</td></tr><tr><td class="kv-k">Item Dimensions L x W</td><td class="kv-v">36&quot;L x 24&quot;W</td></tr><tr><td class="kv-k">尺寸</td><td class="kv-v">24&quot;x36&quot; Double sided</td></tr><tr><td class="kv-k">Unit Count</td><td class="kv-v">1.0 Count</td></tr><tr><td class="kv-k">整机重量</td><td class="kv-v">0.7 Kilograms</td></tr></table></div><div class="visual-block"><h2>二 · 风格五标签 · 视觉摘要</h2><div class="visual-grid">
+      <div class="mini-card">
+        <div class="mini-card-title"><span class="dot"></span>色彩应用</div>
+        <div class="pill-row"><span class="pill dark">深黑主调</span><span class="pill ">钢灰</span><span class="pill ">蓝色冷光</span></div>
+        <p>硬核工业/性能感冷调</p>
+        
+      </div>
+      
+      <div class="mini-card">
+        <div class="mini-card-title"><span class="dot"></span>模特 / 受众</div>
+        <div class="pill-row"><span class="pill dark">男性车主</span><span class="pill ">洗车爱好者</span></div>
+        <p>黑衣手部特写为主，弱化人脸</p>
+        
+      </div>
+      
+      <div class="mini-card">
+        <div class="mini-card-title"><span class="dot"></span>摄影风格</div>
+        <div class="pill-row"><span class="pill dark">产品微距</span><span class="pill ">真车实拍</span></div>
+        <p>水珠/纤维微距突出吸水力</p>
+        
+      </div>
+      
+      <div class="mini-card">
+        <div class="mini-card-title"><span class="dot"></span>整体调性</div>
+        <div class="pill-row"><span class="pill dark">高端</span><span class="pill ">硬核</span><span class="pill ">专业 detailing</span></div>
+        <p>强性能叙事</p>
+        
+      </div>
+      
+      <div class="mini-card">
+        <div class="mini-card-title"><span class="dot"></span>拍摄方式</div>
+        <div class="pill-row"><span class="pill dark">实拍</span><span class="pill ">科技叠层信息图</span></div>
+        <p>六边形 HUD 叠层混排</p>
+        
+      </div>
+      </div></div><div class="visual-block"><h2>三-1 · 卖点排序 · 三层递进</h2><div class="step-ladder">
+      <div class="step-card">
+        <div class="step-num">主卖点</div>
+        <div class="step-body">
+          <div class="step-title">==一遍擦干== · 零水痕 · 超吸水</div>
+          <p>Twisted-Loop 扭织技术 + <mark class="hl-mark">1300GSM</mark>，吸水达自重 6 倍</p>
+        </div>
+      </div>
+      
+      <div class="step-card">
+        <div class="step-num">强化</div>
+        <div class="step-body">
+          <div class="step-title">超大尺寸 · 省时 · ==不划伤==</div>
+          <p>24&quot;x36&quot; 盖整片车顶，滑擦不伤漆</p>
+        </div>
+      </div>
+      
+      <div class="step-card">
+        <div class="step-num">信任</div>
+        <div class="step-body">
+          <div class="step-title">多车免拧 · 专业背书 · 三色可选</div>
+          <p>Dry multiple vehicles without wringing + Pro Detailer 认证</p>
+        </div>
+      </div>
+      </div></div><div class="visual-block"><h2>三-2 · 信息层级 · A+ 分层拆解</h2><div class="layer-stack">
+      <div class="layer-row" style="--layer-color:#111827">
+        <div class="layer-pill">第一层</div>
+        <div class="layer-body">
+          <div class="layer-name">视觉风格 / 核心承诺</div>
+          <p>套图首图 + Work Less, Dry More + 24x36 large coverage</p>
+        </div>
+      </div>
+      
+      <div class="layer-row" style="--layer-color:#1f2937">
+        <div class="layer-pill">第二层</div>
+        <div class="layer-body">
+          <div class="layer-name">机制证明 / 性能演示</div>
+          <p>扭织纤维微距 + 真车滑擦防条痕 + <mark class="hl-mark">多车免拧</mark></p>
+        </div>
+      </div>
+      
+      <div class="layer-row" style="--layer-color:#334155">
+        <div class="layer-pill">第三层</div>
+        <div class="layer-body">
+          <div class="layer-name">规格 / 选择</div>
+          <p>1300GSM 标板 + Pick Your Style 三色</p>
+        </div>
+      </div>
+      </div></div><div class="visual-block"><h2>四 · 用户视角 · 卖家话术 vs 消费者关注</h2><div class="two-col"><div class="two-col-card seller"><h3>卖家强化诉求的词</h3><ul><li><mark class="hl-mark">ONE PASS</mark></li><li><span class="num-pct">100%</span> dry</li><li>Streak Free</li><li>Lint Free</li><li>1300GSM</li><li>Approved by Pro Detailers</li></ul></div><div class="two-col-card buyer"><h3>消费者真正关心却没被回答</h3><ul><li><mark class="hl-mark">黑车/深色漆</mark>上会不会留条痕、会不会划伤</li><li>吸饱后好不好拧干，<mark class="hl-mark">大皮卡</mark>一条够不够</li><li>1300GSM/尺寸是不是名副其实</li></ul></div></div></div><div class="visual-block"><h2>四-X · 适合谁 / 不适合谁 · 预期管理</h2><div class="best-for-grid">
+  <div class="bf-card best">
+    <div class="bf-head"><span class="bf-badge">✓ Best For</span><span class="bf-title">适合人群</span></div>
+    <ul><li class="bf-item"><div class="bf-label">轿车/SUV 周末 DIY 车主</div><div class="bf-hint">追求省时省力</div></li><li class="bf-item"><div class="bf-label">专业/半专业洗车师</div><div class="bf-hint">看重吸水量与漆面安全</div></li><li class="bf-item"><div class="bf-label">愿为高质感养护工具付溢价者</div></li></ul>
+  </div>
+  
+  <div class="bf-card avoid">
+    <div class="bf-head"><span class="bf-badge">✗ Not For</span><span class="bf-title">应规避人群</span></div>
+    <ul><li class="bf-item"><div class="bf-label">深黑车漆、对零条痕零容忍的极致党</div><div class="bf-hint">需二次轻擦</div></li><li class="bf-item"><div class="bf-label">只洗一辆大皮卡又不想买两条</div><div class="bf-hint">吸饱偏重难拧</div></li><li class="bf-item"><div class="bf-label">被夸大广告吸引、预期魔法效果的冲动买家</div><div class="bf-hint">差评主要来源</div></li></ul>
+  </div>
+  </div><div class="bf-note">当前页面未做任何前置筛选，承诺一律绝对化。</div></div><div class="visual-block"><h2>四-Y · 客户购买行为（5W2H）</h2><div class="w5h2-grid"><div class="w5h2-card"><div class="w5h2-head"><div class="w5h2-key">Who</div><div class="w5h2-zh">谁在买</div></div><p class="w5h2-q">目标买家是谁？</p><p class="w5h2-finding"><strong class="hl">男性车主 / 洗车爱好者</strong>为主，含专业 detailer 与家庭采购者</p><div class="w5h2-evidence">评论 &#x27;I&#x27;m a professional detailer&#x27; / &#x27;my husband asked me to order one for each of our vehicles&#x27;</div></div><div class="w5h2-card"><div class="w5h2-head"><div class="w5h2-key">What</div><div class="w5h2-zh">买什么</div></div><p class="w5h2-q">买产品还是解决方案？</p><p class="w5h2-finding">买的是「<strong class="hl">一遍擦干、不留水痕、不伤漆</strong>」的确定性与省时，不是毛巾本身</p><div class="w5h2-evidence">好评 &#x27;dried entire car without wringing&#x27;</div></div><div class="w5h2-card"><div class="w5h2-head"><div class="w5h2-key">When</div><div class="w5h2-zh">何时买</div></div><p class="w5h2-q">购买/使用时机？</p><p class="w5h2-finding">洗车后擦干环节、周末洗车、新车养护、给车队配齐</p><div class="w5h2-evidence">&#x27;after a full wash on my sedan&#x27; / &#x27;got this for my husband for Christmas&#x27;</div></div><div class="w5h2-card"><div class="w5h2-head"><div class="w5h2-key">Where</div><div class="w5h2-zh">在哪用</div></div><p class="w5h2-q">使用场景？</p><p class="w5h2-finding">自家车道/车库，擦轿车、皮卡、SUV 大面板</p><div class="w5h2-evidence">A+ 真车场景 + 评论 &#x27;big truck&#x27; / &#x27;BMW M5&#x27;</div></div><div class="w5h2-card"><div class="w5h2-head"><div class="w5h2-key">Why</div><div class="w5h2-zh">为何买</div></div><p class="w5h2-q">核心动机/痛点？</p><p class="w5h2-finding">解决普通毛巾「擦不净、留水痕、掉毛、可能划伤」的老痛点</p><div class="w5h2-evidence">好评 &#x27;got rid of the long time Chamois&#x27;</div></div><div class="w5h2-card"><div class="w5h2-head"><div class="w5h2-key">How</div><div class="w5h2-zh">怎么决策</div></div><p class="w5h2-q">决策路径/顾虑？</p><p class="w5h2-finding">受社媒/Facebook 广告 + detailer 推荐种草，下单前对比尺寸厚度与大牌</p><div class="w5h2-evidence">&#x27;Social media influenced me&#x27; / &#x27;nothing beats Adams Polish towels&#x27;</div></div><div class="w5h2-card"><div class="w5h2-head"><div class="w5h2-key">How much</div><div class="w5h2-zh">花多少</div></div><p class="w5h2-q">价格敏感度？</p><p class="w5h2-finding">中高价位，性能党觉得<strong class="hl">值</strong>，预期错配者觉得 overpriced</p><div class="w5h2-evidence">偏贵/不值 10 条 vs 好评 &#x27;worth every penny&#x27;</div></div></div></div><div class="visual-block"><h2>四-Z · 客户画像</h2><div class="persona-grid"><div class="persona-card"><div class="persona-head"><div class="persona-emoji">🚗</div><div class="persona-name">周末 DIY 车主 · Mike</div></div><div class="persona-tags"><span class="persona-tag">30-50岁</span><span class="persona-tag">私家车+SUV</span><span class="persona-tag">中高价格敏感</span><span class="persona-tag">看重省时</span></div><div class="persona-row"><div class="label">人群</div><div class="value">周末自己洗车、享受养护过程的中年男性车主</div></div><div class="persona-row"><div class="label">场景</div><div class="value">洗完车想一条毛巾快速擦干整车、不留水痕</div></div><div class="persona-row"><div class="label">动机</div><div class="value">省时省力 + 不掉毛不划伤，告别一堆薄毛巾</div></div><div class="persona-row"><div class="label">顾虑</div><div class="value">值不值这个价、黑车上会不会留痕</div></div><div class="persona-quote">“Best towel to buy worth buying and drying off your vehicle, ease of use, thickness, absorption.”</div></div><div class="persona-card"><div class="persona-head"><div class="persona-emoji">🧽</div><div class="persona-name">专业洗车师 · Dexter</div></div><div class="persona-tags"><span class="persona-tag">35-55岁</span><span class="persona-tag">专业 detailer</span><span class="persona-tag">低价格敏感重性能</span><span class="persona-tag">高复购</span></div><div class="persona-row"><div class="label">人群</div><div class="value">碰撞修复店/洗车房从业者，按性能与耐用度选工具</div></div><div class="persona-row"><div class="label">场景</div><div class="value">一天擦多台车，要吸水量大、免频繁拧干、漆面绝对安全</div></div><div class="persona-row"><div class="label">动机</div><div class="value">效率 + 漆面零风险 + 经久耐洗不掉绒</div></div><div class="persona-row"><div class="label">顾虑</div><div class="value">吸饱后释水慢、是否真有 1300GSM</div></div><div class="persona-quote">“I&#x27;m a professional detailer for a collision repair shop... we use these a good bit.”</div></div><div class="persona-card"><div class="persona-head"><div class="persona-emoji">📱</div><div class="persona-name">社媒种草高预期买家 · Tyler ⚠️</div></div><div class="persona-tags"><span class="persona-tag">25-40岁</span><span class="persona-tag">被广告种草</span><span class="persona-tag">高预期</span><span class="persona-tag">冲动下单</span></div><div class="persona-row"><div class="label">人群</div><div class="value">刷到「一遍出片」广告就下单的新手，缺乏养护经验</div></div><div class="persona-row"><div class="label">场景</div><div class="value">买来擦黑车，期待广告里魔法般效果</div></div><div class="persona-row"><div class="label">动机</div><div class="value">复刻广告里的完美效果</div></div><div class="persona-row"><div class="label">顾虑</div><div class="value">实际留条痕/疑似划痕即认定被骗（差评主要来源）</div></div><div class="persona-quote">“Extremely Disappointed – Not Worth the Hype... it completely missed the mark.”</div></div></div></div><div class="visual-block"><h2>四-K · 客户卡诺模型（Kano）真实需求</h2><div class="kano-grid"><div class="kano-group" style="--kano-color:#dc2626;--kano-bg:#fef2f2"><div class="kano-title">基本型 Must-be</div><ul><li class="kano-need"><strong>不划伤漆面</strong><p>划痕差评 8 条·均分 1.25，&#x27;left micro scratches all over my car&#x27; / &#x27;Scratched my brand new car&#x27;</p></li><li class="kano-need"><strong>尺寸与 1300GSM 名副其实、不缩水</strong><p>存疑 3 条，&#x27;the 1300GSM claim seems to be under&#x27; / &#x27;not as big as expected&#x27;</p></li></ul></div><div class="kano-group" style="--kano-color:#2563eb;--kano-bg:#eff6ff"><div class="kano-title">期望型 One-dimensional</div><ul><li class="kano-need"><strong>吸水量 / 一遍擦干彻底度越强越满意</strong><p>好评 18 条·均分 4.94 &#x27;dried entire car, no wringing&#x27; ↔ 差评 &#x27;gets soaked pretty quick&#x27;</p></li><li class="kano-need"><strong>无条痕程度，尤其深色车漆</strong><p>好评 18 条 &#x27;no streaks&#x27; ↔ 条痕差评 16 条·均分 1.69，集中在 black/darker panels</p></li></ul></div><div class="kano-group" style="--kano-color:#16a34a;--kano-bg:#f0fdf4"><div class="kano-title">兴奋型 Attractive</div><ul><li class="kano-need"><strong>超大尺寸一次盖整片车顶、显著省时</strong><p>好评 14 条 &#x27;large size makes drying fast&#x27;</p></li><li class="kano-need"><strong>专业 detailer 认证 + 双面可用 + 配套洗涤剂保养体系</strong><p>好评 &#x27;professional-grade towel at a fair price&#x27; / &#x27;washed with suggested Blackline detergent&#x27;</p></li></ul></div><div class="kano-group" style="--kano-color:#64748b;--kano-bg:#f1f5f9"><div class="kano-title">无差异 Indifferent</div><ul><li class="kano-need"><strong>颜色选择（3 色，评论几乎不提颜色影响体验）</strong></li></ul></div><div class="kano-group" style="--kano-color:#b45309;--kano-bg:#fffbeb"><div class="kano-title">反向型 Reverse</div><ul><li class="kano-need"><strong>过度营销「ONE PASS <span class="num-pct">100%</span> dry」<mark class="hl-mark">绝对化承诺</mark>——做得越满，预期错配差评越多</strong><p>营销夸大 9 条 + 偏贵不值 10 条，&#x27;not worth the hype&#x27; 反复出现</p></li></ul></div></div></div><div class="visual-block"><h2>四-D · 产品开发注意点</h2><div class="watchpoint-grid"><div class="watchpoint-card" style="--wp-color:#dc2626;--wp-bg:#fef2f2"><div class="watchpoint-priority">P0</div><div><div class="watchpoint-category">must-fix</div><div class="watchpoint-point"><mark class="hl-mark">深色车漆条痕</mark> + 漆面划痕风险</div><div class="watchpoint-rationale">优化扭织纤维细度与四周包边工艺 + 漆面安全实测背书；条痕 16 条 / 划痕 8 条，Kano 基本型<span class="verdict-bad">失守</span></div></div></div><div class="watchpoint-card" style="--wp-color:#dc2626;--wp-bg:#fef2f2"><div class="watchpoint-priority">P0</div><div><div class="watchpoint-category">must-fix</div><div class="watchpoint-point">兑现 1300GSM 与尺寸标注，杜绝虚标观感</div><div class="watchpoint-rationale">1300GSM 与尺寸存疑 3 条</div></div></div><div class="watchpoint-card" style="--wp-color:#2563eb;--wp-bg:#eff6ff"><div class="watchpoint-priority">P1</div><div><div class="watchpoint-category">improve</div><div class="watchpoint-point">提升吸饱后释水性 + 推「大车/多车买两条」组合</div><div class="watchpoint-rationale">吸饱难拧 6 条 + 大车不够用 2 条，期望型</div></div></div><div class="watchpoint-card" style="--wp-color:#2563eb;--wp-bg:#eff6ff"><div class="watchpoint-priority">P1</div><div><div class="watchpoint-category">improve</div><div class="watchpoint-point">持续做强「一遍擦干彻底度 × 无条痕」双指标</div><div class="watchpoint-rationale">好评/差评都围绕此项，是评分主战场</div></div></div><div class="watchpoint-card" style="--wp-color:#16a34a;--wp-bg:#f0fdf4"><div class="watchpoint-priority">P2</div><div><div class="watchpoint-category">innovate</div><div class="watchpoint-point">放大专业认证+双面+保养体系，用真实可复现对比演示替代夸大广告</div><div class="watchpoint-rationale">兴奋型证据 + 反向型营销夸大教训，主动管理预期</div></div></div></div></div><div class="visual-block"><h2>五 · 品牌沉淀现状</h2><div class="metric-grid">
+      <div class="metric-card" style="--metric-color:#16a34a">
+        <div class="metric-label">Logo 出现位置</div>
+        <div class="metric-value">套图包装袋 + A+ 顶部品牌条 + DESIGNED FOR PERFORMANCE 标牌 + Pick Your Style 变体条</div>
+        <div class="metric-hint">约 3-4 处</div>
+      </div>
+      
+      <div class="metric-card" style="--metric-color:#f59e0b">
+        <div class="metric-label">品牌识别度</div>
+        <div class="metric-value"><span class="verdict-warn">中等偏上</span>——调性统一，但毛巾本体无可见品牌标记</div>
+        
+      </div>
+      
+      <div class="metric-card" style="--metric-color:#f59e0b">
+        <div class="metric-label">视觉锤</div>
+        <div class="metric-value">扭织纤维微距 + 六边形叠层为潜在视觉锤，未每模块贯穿</div>
+        
+      </div>
+      </div></div><div class="visual-block"><h2>六 · 评论情感解析 · 数据印证</h2><div class="rs-hist">
+        <div class="rs-hist-row">
+          <span class="rs-hist-label">5★</span>
+          <div class="rs-hist-bar"><span style="width:86.0%;background:#16a34a"></span></div>
+          <span class="rs-hist-pct">86%</span>
+        </div>
+        
+        <div class="rs-hist-row">
+          <span class="rs-hist-label">4★</span>
+          <div class="rs-hist-bar"><span style="width:8.0%;background:#65a30d"></span></div>
+          <span class="rs-hist-pct">8%</span>
+        </div>
+        
+        <div class="rs-hist-row">
+          <span class="rs-hist-label">3★</span>
+          <div class="rs-hist-bar"><span style="width:3.0%;background:#ca8a04"></span></div>
+          <span class="rs-hist-pct">3%</span>
+        </div>
+        
+        <div class="rs-hist-row">
+          <span class="rs-hist-label">2★</span>
+          <div class="rs-hist-bar"><span style="width:1.0%;background:#ea580c"></span></div>
+          <span class="rs-hist-pct">1%</span>
+        </div>
+        
+        <div class="rs-hist-row">
+          <span class="rs-hist-label">1★</span>
+          <div class="rs-hist-bar"><span style="width:2.0%;background:#dc2626"></span></div>
+          <span class="rs-hist-pct">2%</span>
+        </div>
+        </div><div class="rs-kw-wrap"><div class="rs-kw-title">✓ 好评高频词</div><div class="rs-kw-group pos"><span class="rs-kw pos">无条痕擦干</span><span class="rs-kw pos">一遍吸水</span><span class="rs-kw pos">高吸水力</span><span class="rs-kw pos">大尺寸覆盖</span><span class="rs-kw pos">漆面柔和</span><span class="rs-kw pos">最佳擦干巾</span><span class="rs-kw pos">物有所值</span></div><div class="rs-kw-title">✗ 差评高频词</div><div class="rs-kw-group neg"><span class="rs-kw neg">深色面板留痕</span><span class="rs-kw neg">疑似划痕</span><span class="rs-kw neg">吸饱难拧</span><span class="rs-kw neg">越擦越湿</span><span class="rs-kw neg">不值宣传</span><span class="rs-kw neg">价格偏高</span><span class="rs-kw neg">1300GSM 存疑</span></div></div><div class="rs-voice-list"><blockquote class="rs-voice"><div class="rs-voice-stars">★★★★<span class="rs-voice-dim">☆</span></div><p>Great water pickup on the first pass... Streaking on darker panels... Requires a quick follow up wipe in spots. Good towel. Not perfect.</p><div class="rs-voice-meta">Color: Charcoal Grey</div></blockquote><blockquote class="rs-voice"><div class="rs-voice-stars">★<span class="rs-voice-dim">☆☆☆☆</span></div><p>It left behind water streaks and lint all over my black paint. For something claiming to be 1300 GSM, it doesn&#x27;t absorb nearly as much as expected.</p></blockquote><blockquote class="rs-voice"><div class="rs-voice-stars">★<span class="rs-voice-dim">☆☆☆☆</span></div><p>Scratched my brand new car.. sending it back. Social media influenced me. Lesson learned.</p></blockquote></div><div class="rs-gap-wrap"><div class="rs-gap-header">🆚 页面卖点 vs 真实评论 · 预期管理缝隙</div><table class="rs-gap-table"><thead><tr><th>页面是这么说的</th><th></th><th>买家实际反馈</th></tr></thead><tbody><tr><td class='rs-gap-page'>ONE PASS / Streak Free</td><td class='rs-gap-arrow'>→</td><td class='rs-gap-review'><strong class="hl">深色面板留条痕</strong>，需二次轻擦（条痕 16 条）</td></tr><tr><td class='rs-gap-page'>Lint &amp; scratch-free</td><td class='rs-gap-arrow'>→</td><td class='rs-gap-review'><strong class="hl">疑似留下微划痕</strong>（划痕 8 条·均分 1.25）</td></tr><tr><td class='rs-gap-page'>Absorbs a gallon, no wringing</td><td class='rs-gap-arrow'>→</td><td class='rs-gap-review'><strong class="hl">大车吸饱后很难拧干</strong>、越擦越湿（吸饱难拧 6 条）</td></tr></tbody></table></div><div class="rs-summary">全局综合 <mark class="hl-mark"><span class="num-star">4.7★</span> / 2201 评价</mark>（1-2 星仅 <span class="num-pct">3%</span>），口碑稳健；LinkFox 抓取目标 ASIN 188 条样本因星级配额偏置均分 <span class="num-star">3.55★</span>、低星比 <span class="num-pct">27.7%</span>，仅用于挖抱怨：<mark class="hl-mark">深色漆条痕</mark>、划痕、吸饱难拧、营销夸大。近 90 天样本低星比从 <span class="num-pct">36%</span> 降至 <span class="num-pct">13%</span>，口碑改善中。</div></div><div class="visual-block"><h2>七 · 关键评分（V2 六维 · 加权总分 3.7 / 5.0）</h2><div class="score-grid">
+      <div class="score-card">
+        <div class="score-head"><span>视觉一致性</span><span class="score-num"><span class="num-star">4.5 ★</span></span></div>
+        <div class="bar"><span style="width:90%"></span></div>
+        <p>黑底冷光硬核调性高度统一，套图与 A+ 串得起来，六边形叠层贯穿</p>
+      </div>
+      
+      <div class="score-card">
+        <div class="score-head"><span>信息层级</span><span class="score-num"><span class="num-star">4.0 ★</span></span></div>
+        <div class="bar"><span style="width:80%"></span></div>
+        <p>覆盖→机制→规格层级清晰；6 个 A+ 模块略多但有递进</p>
+      </div>
+      
+      <div class="score-card">
+        <div class="score-head"><span>图文契合度</span><span class="score-num"><span class="num-star">4.0 ★</span></span></div>
+        <div class="bar"><span style="width:80%"></span></div>
+        <p>纤维微距、真车滑擦、尺寸标注承接到位；唯 <mark class="hl-mark"><span class="num-pct">100%</span> dry</mark> 无法被画面完全兑现</p>
+      </div>
+      
+      <div class="score-card">
+        <div class="score-head"><span>连贯叙事效率</span><span class="score-num"><span class="num-star">4.5 ★</span></span></div>
+        <div class="bar"><span style="width:90%"></span></div>
+        <p>覆盖→性能→技术→多车→选色，叙事连贯流畅</p>
+      </div>
+      
+      <div class="score-card">
+        <div class="score-head"><span>品牌沉淀</span><span class="score-num"><span class="num-star">3.5 ★</span></span></div>
+        <div class="bar"><span style="width:70%"></span></div>
+        <p>品牌出现 3-4 处且调性统一，但毛巾本体无品牌标记，视觉锤未贯穿</p>
+      </div>
+      
+      <div class="score-card">
+        <div class="score-head"><span>预期管理 / 用户筛选</span><span class="score-num"><span class="num-star">2.5 ★</span></span></div>
+        <div class="bar"><span style="width:50%"></span></div>
+        <p><mark class="hl-mark">全页无 Best For / 使用边界</mark>，绝对化承诺把预期拉满，深色漆/大车错配差评由此而来</p>
+      </div>
+      </div></div><div class="visual-block"><h2>八 · 行动结论 · 优势 / 失误 / 借鉴 / 规避</h2><div class="action-grid"><div class="action-card good"><h3>✓ 优势亮点</h3><ul><li>视觉与品牌调性高度统一，硬核性能感强，套图与 A+ 形成<mark class="hl-mark">连贯吸水力叙事</mark></li><li>核心卖点（一遍擦干/超吸水/大尺寸）有真车场景 + 纤维微距双重承接，好评印证度高</li><li>全局口碑 <span class="num-star">4.7★</span> / 2201 评价非常稳健，近 90 天差评比明显下降</li></ul></div><div class="action-card bad"><h3>✗ 不足问题</h3><ul><li><mark class="hl-mark">预期管理失误</mark>：社媒级绝对化话术（ONE PASS / <span class="num-pct">100%</span> dry）把预期拉满，却未对深色漆/大车设使用边界，错配买家转成 1-2 星</li><li>全页 0 个 <mark class="hl-mark">Best For / 不适合谁</mark>前置筛选，高预期人群无法被挡住</li><li>关键体验风险（深色漆条痕、吸饱难拧、划痕）被绝对承诺掩盖，未做风险前置化解</li></ul></div><div class="action-card borrow"><h3>✓ 可借鉴点</h3><ul><li>借鉴「纤维微距 + 真车滑擦」机制可视化，把抽象的吸水/防痕做成可信视觉证据</li><li>借鉴黑底冷光硬核调性与套图/A+ 一致性串联手法</li><li>文案级：把绝对化 ONE PASS 改为<mark class="hl-mark">带边界承诺 + Best For 四条</mark>——①轿车/SUV 快速擦干 ②深色漆建议「一遍吸水+一遍轻抛」③大皮卡建议两条搭配 ④专业 detailer 日常多车</li></ul></div><div class="action-card avoid"><h3>✗ 规避方向</h3><ul><li>规避绝对化、无边界的承诺型文案（<span class="num-pct">100%</span>/一遍到位），它是预期错配差评的根源</li><li>规避把 1300GSM/尺寸做成易被实测打脸的硬数字而无场景说明</li><li>规避全页只讲优点、零风险提示——关键体验风险不前置等于把差评留给评论区</li></ul></div></div></div></section>
+    <div class="meta-card">🕒 生成时间：2026-06-09 15:26:39</div>
+  </main>
+  
+    </div>
+  </div>
+  <script>
+function initGallery() {
+  const root = document.querySelector('.gallery-preview');
+  if (!root) return;
+  const main = root.querySelector('.gallery-main');
+  const thumbs = Array.from(root.querySelectorAll('.thumbs img'));
+  thumbs.forEach((t) => {
+    t.addEventListener('click', () => {
+      main.src = t.dataset.full;
+      thumbs.forEach((x) => x.classList.remove('active'));
+      t.classList.add('active');
+    });
+  });
+}
+
+function initAplusCarousels() {
+  const cards = Array.from(document.querySelectorAll('.aplus-card[data-slider="1"]'));
+  cards.forEach((card) => {
+    const slides = Array.from(card.querySelectorAll('.aplus-slide'));
+    const dots = Array.from(card.querySelectorAll('.aplus-dot'));
+    const prev = card.querySelector('.aplus-prev');
+    const next = card.querySelector('.aplus-next');
+    let idx = 0;
+    const apply = () => {
+      slides.forEach((s, i) => s.classList.toggle('active', i === idx));
+      dots.forEach((d, i) => d.classList.toggle('active', i === idx));
+    };
+    prev.addEventListener('click', () => {
+      idx = (idx - 1 + slides.length) % slides.length;
+      apply();
+    });
+    next.addEventListener('click', () => {
+      idx = (idx + 1) % slides.length;
+      apply();
+    });
+    dots.forEach((d, i) => d.addEventListener('click', () => {
+      idx = i;
+      apply();
+    }));
+    apply();
+  });
+}
+
+function initFloatingAmazonFab() {
+  const fabs = Array.from(document.querySelectorAll('.amazon-fab'));
+  const hero = document.querySelector('.hero');
+  if (!fabs.length) return;
+  if (!hero || !('IntersectionObserver' in window)) {
+    fabs.forEach((f) => f.classList.add('is-visible'));
+    return;
+  }
+  const obs = new IntersectionObserver(([entry]) => {
+    fabs.forEach((f) => f.classList.toggle('is-visible', !entry.isIntersecting));
+  }, { threshold: 0, rootMargin: '0px 0px -10px 0px' });
+  obs.observe(hero);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  initGallery();
+  initAplusCarousels();
+  initFloatingAmazonFab();
+});
+</script>
+</body>
+</html>

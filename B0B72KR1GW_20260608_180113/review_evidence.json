@@ -1,0 +1,2989 @@
+{
+  "asin": "B0B72KR1GW",
+  "scope": "single_asin:B0B72KR1GW",
+  "overall": {
+    "count": 188,
+    "avg": 3.55,
+    "low_pct": 27.7,
+    "star_dist": {
+      "1": 37,
+      "2": 15,
+      "3": 22,
+      "4": 36,
+      "5": 78
+    }
+  },
+  "groups": [
+    {
+      "source": "keywords",
+      "polarity": "pos",
+      "label": "无条痕 / 不留水痕",
+      "terms": [
+        "streak free",
+        "no streaks",
+        "not streaks",
+        "no spots",
+        "no water spots"
+      ],
+      "count": 17,
+      "avg": 4.94,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 16
+      },
+      "quotes": [
+        {
+          "stars": 4,
+          "date": "2025-07-28",
+          "snippet": "…It dried my entire Large sedan (bmw m5) and left no streaks or water spots so if you want the product get it BUTTT its not perfect thats why I chose 4 stars. Idk if its…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-19",
+          "snippet": "…hose adds about going over the hood one time with no streaks and dries fast. But I bought one and to my surprise, it did it's job and I got rid of the long time Chamois w…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-29",
+          "snippet": "…r great materials , everything maker states about streak free drying is true…super great materials used in construction… stays in place while drying … highly recommend thi…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-16",
+          "snippet": "…ying my car. Very absorbent. And best of all left no streaks or water marks."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-23",
+          "snippet": "…l is a really good product. It dries fast, leaves no streaks, and doesn’t leave lint behind. The microfiber feels high quality and it’s reusable, so it lasts a long time.…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 4,
+          "date": "2025-07-28",
+          "vp": true,
+          "title": "Works great maybe quality issues.",
+          "body": "First the product does work and works well. It dried my entire Large sedan (bmw m5) and left no streaks or water spots so if you want the product get it BUTTT its not perfect thats why I chose 4 stars. Idk if its a quality control issue or what but I had about 5 to 6 loose strings coming from the towel that I had to cut off. The appeard to be extra where after sewing it was ment to be cut but wasn't not a major deal but I wonder how that will effect the long-term of the product and if after some washes if it'll fall apart.TLDR: product works great but some quality control issues."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-23",
+          "vp": true,
+          "title": "Overall, highly recommended if you want a towel that actually works.",
+          "body": "The Blackline 24”x36” twisted-loop drying towel is a really good product. It dries fast, leaves no streaks, and doesn’t leave lint behind. The microfiber feels high quality and it’s reusable, so it lasts a long time. One pass is all you need to dry your car clean."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-24",
+          "vp": true,
+          "title": "Superior drying cloth",
+          "body": "Super absorbent, leaves no streaks!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-26",
+          "vp": true,
+          "title": "Great product",
+          "body": "I was not sure bout buying this . I seen the ADs on IG but it seem to good to be true . Until I decided to buy it and what can I say left me 😱 dried up my car within minutes no streaks left behind."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-02",
+          "vp": true,
+          "title": "Great Purchase!",
+          "body": "Works great! Hand washed my car and left no water spots after using this towel to dry my baby."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-04",
+          "vp": true,
+          "title": "One and done",
+          "body": "Able to dry entire car with one towel! Leaves no streaks! Will probably purchase another one!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-07",
+          "vp": true,
+          "title": "Dries vehicles quickly!",
+          "body": "Amazing! The greatest item ever used to dry my vehicle. I have a large SUV and this dries it in minutes, streak free!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-10",
+          "vp": false,
+          "title": "You need this.",
+          "body": "Both my vehicles are black. One pass drying with no streaks. Well worth it."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-12",
+          "vp": true,
+          "title": "Great product",
+          "body": "Dries car quick no streaks"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-16",
+          "vp": true,
+          "title": "High quality towel for cars",
+          "body": "Does a great job, no streaks!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-29",
+          "vp": true,
+          "title": "Best car drying towel !!!",
+          "body": "Wow. !!! Best drying cloth I have ever owned ! Super great materials , everything maker states about streak free drying is true…super great  materials used in construction… stays in place while drying … highly recommend this product … pricey but worth every penny … will buy another one"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-07",
+          "vp": true,
+          "title": "Excellent Results",
+          "body": "Excellent product providing excellent results.Truely streak free cleaning."
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-14",
+          "vp": true,
+          "title": "No streaking, not wringing out",
+          "body": "Dryed my ford explorer stem to stern.No streaks, no wringing out!Highly recommend"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-19",
+          "vp": true,
+          "title": "Doubts about this towel...",
+          "body": "I had doubts about this product, seeing all those adds about going over the hood one time with no streaks and dries fast. But I bought one and to my surprise, it did it's job and I got rid of the long time Chamois which I thought was the best drying towel  of all time. This Blackline towel was a great invention, it usually took me about 20 minutes to finish drying with the Chamois, but now it took me about 5 minutes I was stun. I am a satisfied customer and you will be very happy when you getthis for your car, I guarantee!!!!!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-25",
+          "vp": true,
+          "title": "Great drying towel",
+          "body": "Got this for my husband for Christmas. He absolutely loves it for his car. He says it's the best drying towel he's had. Works great and leaves no streaks . Worth the price and great quality."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-05",
+          "vp": true,
+          "title": "As expected",
+          "body": "As expected wipes streak free but gets heavy with wiping down. would suggest putting in washer spin to get water out since its hard to wring out"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-16",
+          "vp": true,
+          "title": "Car towel",
+          "body": "I get serious with my car care. And decided to level up my car drying process after seeing the Blackline microfiber towel advertised. Super soft out of the package. It made quick work of drying my car. Very absorbent. And best of all left no streaks or water marks."
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "pos",
+      "label": "一遍擦干 / 超吸水",
+      "terms": [
+        "one pass",
+        "absorbs",
+        "absorbent",
+        "soaks up",
+        "no wringing",
+        "without wringing",
+        "thirsty"
+      ],
+      "count": 18,
+      "avg": 4.94,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 17
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2026-05-26",
+          "snippet": "…ve chemicals or debris on them, kinda ruins the way it absorbs water. That’s the same that can be said for any towel tho, so if you have rags/towels specific to drying…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-08",
+          "snippet": "Heavy, Thirsty Towels!：My husband asked me to order one for each of our vehicles and I must say I am pleased with the qualit…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "snippet": "5 Stars – Massive, Absorbent, and Exactly as Advertised：LOVE this towel. The Blackline 24” x 36” Twisted-Loop Car Drying Towel is absolute…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-16",
+          "snippet": "…ackage. It made quick work of drying my car. Very absorbent. And best of all left no streaks or water marks."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-23",
+          "snippet": "…quality and it’s reusable, so it lasts a long time. One pass is all you need to dry your car clean."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 4,
+          "date": "2025-11-20",
+          "vp": true,
+          "title": "Super thick & absorbent",
+          "body": "This towel works great but it’s so heavy it’s almost awkward to use"
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-23",
+          "vp": true,
+          "title": "Overall, highly recommended if you want a towel that actually works.",
+          "body": "The Blackline 24”x36” twisted-loop drying towel is a really good product. It dries fast, leaves no streaks, and doesn’t leave lint behind. The microfiber feels high quality and it’s reusable, so it lasts a long time. One pass is all you need to dry your car clean."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-24",
+          "vp": true,
+          "title": "Superior drying cloth",
+          "body": "Super absorbent, leaves no streaks!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-12",
+          "vp": false,
+          "title": "It soaks up all the water game changer",
+          "body": "I’ve always used just a bathroom towel on my vehicles.!This towel hands down a game changer holy!! 5 star 5 star"
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-14",
+          "vp": true,
+          "title": "Siper recommend!",
+          "body": "Love this! 10/10 it dried in one swipe and leave no steak. Super absorbent, leaving no makr. Decent size. Recommend !"
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-17",
+          "vp": true,
+          "title": "Very absorbent towel",
+          "body": "I enjoy drying off my vehicle with this product. Very absorbent and washes easy! High recommend."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-06",
+          "vp": true,
+          "title": "Great towel",
+          "body": "Very absorbent and works perfectly"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-08",
+          "vp": true,
+          "title": "Heavy, Thirsty Towels!",
+          "body": "My husband asked me to order one for each of our vehicles and I must say I am pleased with the quality of this towel. As directed, we washed first with the suggested Blackline detergent. The towels left no residue or streaks and our vehicles are as shiny as the day we purchased. I am hoping the towels hold their own because my husband has burned a considerable amount of money over the years with other vendors. So far, we are happy with this purchase."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "vp": true,
+          "title": "5 Stars – Massive, Absorbent, and Exactly as Advertised",
+          "body": "LOVE this towel. The Blackline 24” x 36” Twisted-Loop Car Drying Towel is absolutely as described. It’s large, super absorbent, and made drying our ’25 Escalade Sport Platinum incredibly easy. It handled the size of the vehicle with ease and made quick work of the job without feeling saturated too fast. If you want a quality drying towel that performs like it should, this one delivers. Highly recommend."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-10",
+          "vp": false,
+          "title": "You need this.",
+          "body": "Both my vehicles are black. One pass drying with no streaks. Well worth it."
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-03",
+          "vp": true,
+          "title": "Highly recommend",
+          "body": "As advertised. This thing is a one pass and it’s dry. Makes drying your car easy! I need to buy two more!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-11",
+          "vp": true,
+          "title": "Best Drying Towel!",
+          "body": "This is the best drying towel I've used. All the towels I've used before stopped drying well once saturated. This towel soaks up all water on my full size pickup, including the hard tonneau cover without leaving a drop. I would definitely recommend this towel."
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-14",
+          "vp": true,
+          "title": "No streaking, not wringing out",
+          "body": "Dryed my ford explorer stem to stern.No streaks, no wringing out!Highly recommend"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-05",
+          "vp": true,
+          "title": "Great towel",
+          "body": "Brother recommended. Now I have two. Absorbent. Thick. Great for drying your vehicle after a bath"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-07",
+          "vp": true,
+          "title": "Great quality!!",
+          "body": "Awesome !! In the past I would need several drying towels or my leaf blower to dry my full size pickup…This Blackline towel drys my entire truck…with NO wringing !!!Great product and highly recommend!!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-16",
+          "vp": true,
+          "title": "Car towel",
+          "body": "I get serious with my car care. And decided to level up my car drying process after seeing the Blackline microfiber towel advertised. Super soft out of the package. It made quick work of drying my car. Very absorbent. And best of all left no streaks or water marks."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-26",
+          "vp": false,
+          "title": "Pretty good, take care of it and it’ll take care of you",
+          "body": "I’m a professional detailer for a collision repair shop, I clean cars after they’ve been fixed. We use these a good bit on the cars we do when they’re done being washed, they’re great. Just make sure you wash them separately from other towels that might have chemicals or debris on them, kinda ruins the way it absorbs water. That’s the same that can be said for any towel tho, so if you have rags/towels specific to drying your car you should be washing them separately anyways. Will not scratch your car, pretty simple to use, size makes it easier to dry cars quickly, especially if you’re a smaller person and would typically have to reach across the hood or roof to get it fully dried. Pretty much the standard as far what the texture of a towel should be for using on a car if you’re serious about taking care of your paint, tons of other “microfiber” towels say they won’t scratch and do. I’ve used tons of different kinds of towels and rags, these are by far the best to use for drying. Definitely make sure you clean the car thoroughly tho because you do not want hard objects like rock or dirt to stick to the towel because you will scratch your paint, that will happen with anything you use so just be careful and mindful. Overall, 10/10. If they weren’t as expensive as they are, I’d probably have about a dozen of them for work and a couple for myself"
+        },
+        {
+          "stars": 5,
+          "date": "2026-06-03",
+          "vp": true,
+          "title": "Must have",
+          "body": "Must buy! Dry your car fast and easy, with one pass."
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "pos",
+      "label": "大尺寸 / 省时高效",
+      "terms": [
+        "large",
+        "huge",
+        "big enough",
+        "covers",
+        "less time",
+        "fast"
+      ],
+      "count": 14,
+      "avg": 4.79,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 3,
+        "5": 11
+      },
+      "quotes": [
+        {
+          "stars": 4,
+          "date": "2026-02-15",
+          "snippet": "…the first pass• Safe on paint with no scratching• Large size makes drying fast• Streaking on darker panels• Requires a quick follow up wipe in spotsGood towel. Not p…"
+        },
+        {
+          "stars": 4,
+          "date": "2025-07-28",
+          "snippet": "…duct does work and works well. It dried my entire Large sedan (bmw m5) and left no streaks or water spots so if you want the product get it BUTTT its not perfect tha…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-19",
+          "snippet": "…over the hood one time with no streaks and dries fast. But I bought one and to my surprise, it did it's job and I got rid of the long time Chamois which I thought…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-26",
+          "snippet": "Must have, especially if you have a larger vehicle!：How have I been drying my car all this time with little microfiber towels?! For my hatchback, after…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "snippet": "…Car Drying Towel is absolutely as described. It’s large, super absorbent, and made drying our ’25 Escalade Sport Platinum incredibly easy. It handled the size of th…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 4,
+          "date": "2025-07-28",
+          "vp": true,
+          "title": "Works great maybe quality issues.",
+          "body": "First the product does work and works well. It dried my entire Large sedan (bmw m5) and left no streaks or water spots so if you want the product get it BUTTT its not perfect thats why I chose 4 stars. Idk if its a quality control issue or what but I had about 5 to 6 loose strings coming from the towel that I had to cut off. The appeard to be extra where after sewing it was ment to be cut but wasn't not a major deal but I wonder how that will effect the long-term of the product and if after some washes if it'll fall apart.TLDR: product works great but some quality control issues."
+        },
+        {
+          "stars": 4,
+          "date": "2025-12-30",
+          "vp": true,
+          "title": "Need more than two of these",
+          "body": "Good towel for drying a small car. Not the super soaker it is made out to be in the listing and some reviews. I used it on a large SUV and I think I’ll need 3x to dry properly without the towel saturating."
+        },
+        {
+          "stars": 4,
+          "date": "2026-02-15",
+          "vp": true,
+          "title": "Good towel. Not perfect. If you expect a single pass spotless dry, this misses a bit.",
+          "body": "I bought the Blackline drying towel. For my first pull on my hood after a wash. It works. I dried the entire car with one towel. Absorption is strong and it feels soft on the paint.The performance falls short of the hype. It leaves light streaks in certain areas. You can see it in my video. I had to make a second pass on panels to get a clean finish.What I noticed:• Great water pickup on the first pass• Safe on paint with no scratching• Large size makes drying fast• Streaking on darker panels• Requires a quick follow up wipe in spotsGood towel. Not perfect. If you expect a single pass spotless dry, this misses a bit. If you are fine doing a quick second wipe, it does the job well."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-23",
+          "vp": true,
+          "title": "Overall, highly recommended if you want a towel that actually works.",
+          "body": "The Blackline 24”x36” twisted-loop drying towel is a really good product. It dries fast, leaves no streaks, and doesn’t leave lint behind. The microfiber feels high quality and it’s reusable, so it lasts a long time. One pass is all you need to dry your car clean."
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-03",
+          "vp": true,
+          "title": "Best towel every!!",
+          "body": "I didn't do a before Pic but the after was awesome.  Best drying towel I've ever purchased! I have a truck and the larger size worked way better than the other drying towels."
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-23",
+          "vp": true,
+          "title": "Super fast to dry your vehicle",
+          "body": "Works just as advertised. Great for my pickup."
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-26",
+          "vp": true,
+          "title": "Must have, especially if you have a larger vehicle!",
+          "body": "How have I been drying my car all this time with little microfiber towels?! For my hatchback, after washing (with this particular car I’m avoiding drive through automated washes)  literally just a few swipes with this huge towel and all good to go! I couldn’t imagine trying to dry large truck or van etc with little towels, if you’re into washing/detailing car yourself, please give these towels a try-A+Great Product!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-07",
+          "vp": true,
+          "title": "Dries vehicles quickly!",
+          "body": "Amazing! The greatest item ever used to dry my vehicle. I have a large SUV and this dries it in minutes, streak free!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "vp": true,
+          "title": "5 Stars – Massive, Absorbent, and Exactly as Advertised",
+          "body": "LOVE this towel. The Blackline 24” x 36” Twisted-Loop Car Drying Towel is absolutely as described. It’s large, super absorbent, and made drying our ’25 Escalade Sport Platinum incredibly easy. It handled the size of the vehicle with ease and made quick work of the job without feeling saturated too fast. If you want a quality drying towel that performs like it should, this one delivers. Highly recommend."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-10",
+          "vp": true,
+          "title": "Best drying towel ever!!",
+          "body": "10/10 product. Definitely is good as advertised. Love drying my car with it, holds a lot of water, and is very big! It takes me a lot less time to dry my car after a long time of washing. Also the towel is extremely soft on my cars paint and doesn’t leave any micro scratches."
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-19",
+          "vp": true,
+          "title": "Doubts about this towel...",
+          "body": "I had doubts about this product, seeing all those adds about going over the hood one time with no streaks and dries fast. But I bought one and to my surprise, it did it's job and I got rid of the long time Chamois which I thought was the best drying towel  of all time. This Blackline towel was a great invention, it usually took me about 20 minutes to finish drying with the Chamois, but now it took me about 5 minutes I was stun. I am a satisfied customer and you will be very happy when you getthis for your car, I guarantee!!!!!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-23",
+          "vp": true,
+          "title": "Impressed",
+          "body": "Works as advertised.  I was able to dry a large SUV and a sports car with one towel!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-01",
+          "vp": true,
+          "title": "Best product",
+          "body": "Best product ever drys fast"
+        },
+        {
+          "stars": 5,
+          "date": "2026-06-03",
+          "vp": true,
+          "title": "Must have",
+          "body": "Must buy! Dry your car fast and easy, with one pass."
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "pos",
+      "label": "漆面柔软 / 不划伤",
+      "terms": [
+        "soft",
+        "no scratches",
+        "scratch free",
+        "gentle",
+        "no micro"
+      ],
+      "count": 3,
+      "avg": 4.67,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 2
+      },
+      "quotes": [
+        {
+          "stars": 4,
+          "date": "2026-02-15",
+          "snippet": "…with one towel. Absorption is strong and it feels soft on the paint.The performance falls short of the hype. It leaves light streaks in certain areas. You can see i…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-10",
+          "snippet": "…long time of washing. Also the towel is extremely soft on my cars paint and doesn’t leave any micro scratches."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-16",
+          "snippet": "…the Blackline microfiber towel advertised. Super soft out of the package. It made quick work of drying my car. Very absorbent. And best of all left no streaks or w…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 4,
+          "date": "2026-02-15",
+          "vp": true,
+          "title": "Good towel. Not perfect. If you expect a single pass spotless dry, this misses a bit.",
+          "body": "I bought the Blackline drying towel. For my first pull on my hood after a wash. It works. I dried the entire car with one towel. Absorption is strong and it feels soft on the paint.The performance falls short of the hype. It leaves light streaks in certain areas. You can see it in my video. I had to make a second pass on panels to get a clean finish.What I noticed:• Great water pickup on the first pass• Safe on paint with no scratching• Large size makes drying fast• Streaking on darker panels• Requires a quick follow up wipe in spotsGood towel. Not perfect. If you expect a single pass spotless dry, this misses a bit. If you are fine doing a quick second wipe, it does the job well."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-10",
+          "vp": true,
+          "title": "Best drying towel ever!!",
+          "body": "10/10 product. Definitely is good as advertised. Love drying my car with it, holds a lot of water, and is very big! It takes me a lot less time to dry my car after a long time of washing. Also the towel is extremely soft on my cars paint and doesn’t leave any micro scratches."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-16",
+          "vp": true,
+          "title": "Car towel",
+          "body": "I get serious with my car care. And decided to level up my car drying process after seeing the Blackline microfiber towel advertised. Super soft out of the package. It made quick work of drying my car. Very absorbent. And best of all left no streaks or water marks."
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "pos",
+      "label": "强烈推荐 / 物有所值",
+      "terms": [
+        "best",
+        "recommend",
+        "worth it",
+        "worth every penny",
+        "amazing",
+        "love it"
+      ],
+      "count": 41,
+      "avg": 4.83,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 7,
+        "5": 34
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2026-05-26",
+          "snippet": "…of different kinds of towels and rags, these are by far the best to use for drying. Definitely make sure you clean the car thoroughly tho because you do not want ha…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-19",
+          "snippet": "…d of the long time Chamois which I thought was the best drying towel of all time. This Blackline towel was a great invention, it usually took me about 20 minutes to…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "snippet": "…performs like it should, this one delivers. Highly recommend."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-21",
+          "snippet": "Best drying towel on the market, hands down.：Well worth the price. If you want a great quality drying towel for yo…"
+        },
+        {
+          "stars": 4,
+          "date": "2025-02-23",
+          "snippet": "…for about a month the towel is not holding up the best. It has started to fray in some areas."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 4,
+          "date": "2025-02-23",
+          "vp": true,
+          "title": "Sham wow…. No Black Line",
+          "body": "My honest review would have to be that it works great! It took me a long time to buy this and I was surly not disappointed when I did. Now I am using it every weekend because I detail cars. After having it for about a month the towel is not holding up the best. It has started to fray in some areas."
+        },
+        {
+          "stars": 4,
+          "date": "2025-05-13",
+          "vp": true,
+          "title": "High Quality",
+          "body": "A very good towel but it doesn’t get every drop like most people review. Depending on the paint it might streak. Overall, it is the best towel I have used, just not perfect like advertised."
+        },
+        {
+          "stars": 4,
+          "date": "2025-05-19",
+          "vp": true,
+          "title": "The best! But how to maintain it?",
+          "body": "Works wonderful, the best i’ve used not gonna lie. I can dry 2 cars easily. The only thing that is worrying me is it says to wash it with non additive soap, no idea what to use or how to maintain the absorbency to make the towel last a lot longer."
+        },
+        {
+          "stars": 4,
+          "date": "2025-07-11",
+          "vp": true,
+          "title": "great product but packaging was bad",
+          "body": "package was completely ripped open but other then that product is amazing"
+        },
+        {
+          "stars": 4,
+          "date": "2025-07-16",
+          "vp": true,
+          "title": "would recommend",
+          "body": "It's a great product, but there is too much hype around it. Yes, it dries the car well, but the drying towel from the Rag Company does the same job at a lower price. This is a good towel, and I would recommend it, but I think the Rag Company drying towel is better value."
+        },
+        {
+          "stars": 4,
+          "date": "2025-08-06",
+          "vp": false,
+          "title": "Amazing towel",
+          "body": "Amazing  towel that does the job as advertised.I use only one towel for the entire SUV. I wouldsay that I had a few streaks on my windshield, but decided to dry all the windows , first and it’s perfect. Make sure you get the towel completely flat to get it work."
+        },
+        {
+          "stars": 4,
+          "date": "2026-04-24",
+          "vp": true,
+          "title": "Best purchase ever",
+          "body": "Overall I love this towel. Dried off my Range Rover in less than 5 min!!! However, when I got to my wife’s car the towel got super heavy halfway thru and it’s not easy to ring out. Had to put it in the washer on spin cycle. But I do recommend this purchase! It literally wipes dry in one stroke"
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-23",
+          "vp": true,
+          "title": "Overall, highly recommended if you want a towel that actually works.",
+          "body": "The Blackline 24”x36” twisted-loop drying towel is a really good product. It dries fast, leaves no streaks, and doesn’t leave lint behind. The microfiber feels high quality and it’s reusable, so it lasts a long time. One pass is all you need to dry your car clean."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-25",
+          "vp": true,
+          "title": "Great drying towel.",
+          "body": "Nice. Works amazing!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-03",
+          "vp": true,
+          "title": "Best towel every!!",
+          "body": "I didn't do a before Pic but the after was awesome.  Best drying towel I've ever purchased! I have a truck and the larger size worked way better than the other drying towels."
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-14",
+          "vp": true,
+          "title": "Siper recommend!",
+          "body": "Love this! 10/10 it dried in one swipe and leave no steak. Super absorbent, leaving no makr. Decent size. Recommend !"
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-16",
+          "vp": true,
+          "title": "Best drying towel I have owned.",
+          "body": "Best drying auto towels  have ever owned.  I have bought a lot of towels in my 67 years and none of them have come close to the performance of this towel.  It is kind of expensive but well worth it if you are looking for an outstanding drying auto towels."
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-17",
+          "vp": true,
+          "title": "Very absorbent towel",
+          "body": "I enjoy drying off my vehicle with this product. Very absorbent and washes easy! High recommend."
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-25",
+          "vp": true,
+          "title": "Absolutely amazing!!!",
+          "body": "It’s rare that something you see advertised online that lives up to its claims, but this cloth does EVERYTHING it’s advertised to do. I’d give it 10 stars if I could."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-05",
+          "vp": true,
+          "title": "Great product",
+          "body": "Great towel. It really is amazing how well it dries your car.  Definitely worth the money"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-07",
+          "vp": true,
+          "title": "Dries vehicles quickly!",
+          "body": "Amazing! The greatest item ever used to dry my vehicle. I have a large SUV and this dries it in minutes, streak free!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "vp": true,
+          "title": "5 Stars – Massive, Absorbent, and Exactly as Advertised",
+          "body": "LOVE this towel. The Blackline 24” x 36” Twisted-Loop Car Drying Towel is absolutely as described. It’s large, super absorbent, and made drying our ’25 Escalade Sport Platinum incredibly easy. It handled the size of the vehicle with ease and made quick work of the job without feeling saturated too fast. If you want a quality drying towel that performs like it should, this one delivers. Highly recommend."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "vp": true,
+          "title": "Would recommend buying",
+          "body": "Never had drawing how this towel works great"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-10",
+          "vp": false,
+          "title": "You need this.",
+          "body": "Both my vehicles are black. One pass drying with no streaks. Well worth it."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-10",
+          "vp": true,
+          "title": "Best drying towel ever!!",
+          "body": "10/10 product. Definitely is good as advertised. Love drying my car with it, holds a lot of water, and is very big! It takes me a lot less time to dry my car after a long time of washing. Also the towel is extremely soft on my cars paint and doesn’t leave any micro scratches."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-12",
+          "vp": false,
+          "title": "Love It!",
+          "body": "Great drying Towel! I liked the thickness and easy to wash."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-15",
+          "vp": true,
+          "title": "Blackline 24x36 dry towel",
+          "body": "Not gonna lie. I was very skeptical about the towel, but it worked amazing dried my car i less than 10 minutes not exaggerating."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-19",
+          "vp": true,
+          "title": "Only the best",
+          "body": "Highly recommend  this drying towel"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-22",
+          "vp": true,
+          "title": "If it works it works",
+          "body": "Love it"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-28",
+          "vp": true,
+          "title": "Great Drying Towel",
+          "body": "I tried a few well known expensive brands, but this Blackline Drying Towel is the best. The size is great! I can dry my entire SUV without having to squeeze out any water. I would definitely recommend this product."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-29",
+          "vp": true,
+          "title": "Best car drying towel !!!",
+          "body": "Wow. !!! Best drying cloth I have ever owned ! Super great materials , everything maker states about streak free drying is true…super great  materials used in construction… stays in place while drying … highly recommend this product … pricey but worth every penny … will buy another one"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-03",
+          "vp": true,
+          "title": "Highly recommend",
+          "body": "As advertised. This thing is a one pass and it’s dry. Makes drying your car easy! I need to buy two more!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-11",
+          "vp": true,
+          "title": "Best Drying Towel!",
+          "body": "This is the best drying towel I've used. All the towels I've used before stopped drying well once saturated. This towel soaks up all water on my full size pickup, including the hard tonneau cover without leaving a drop. I would definitely recommend this towel."
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-12",
+          "vp": true,
+          "title": "Great",
+          "body": "Amazing dry off car excellent."
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-14",
+          "vp": true,
+          "title": "No streaking, not wringing out",
+          "body": "Dryed my ford explorer stem to stern.No streaks, no wringing out!Highly recommend"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-15",
+          "vp": true,
+          "title": "Best drying towels ever",
+          "body": "Awesome drying towels for anything, especially for vehicles."
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-15",
+          "vp": true,
+          "title": "best car drying towel",
+          "body": "love it"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-19",
+          "vp": true,
+          "title": "Doubts about this towel...",
+          "body": "I had doubts about this product, seeing all those adds about going over the hood one time with no streaks and dries fast. But I bought one and to my surprise, it did it's job and I got rid of the long time Chamois which I thought was the best drying towel  of all time. This Blackline towel was a great invention, it usually took me about 20 minutes to finish drying with the Chamois, but now it took me about 5 minutes I was stun. I am a satisfied customer and you will be very happy when you getthis for your car, I guarantee!!!!!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-25",
+          "vp": true,
+          "title": "Great drying towel",
+          "body": "Got this for my husband for Christmas. He absolutely loves it for his car. He says it's the best drying towel he's had. Works great and leaves no streaks . Worth the price and great quality."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-01",
+          "vp": true,
+          "title": "Best product",
+          "body": "Best product ever drys fast"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-05",
+          "vp": true,
+          "title": "Great towel",
+          "body": "Brother recommended. Now I have two. Absorbent. Thick. Great for drying your vehicle after a bath"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-07",
+          "vp": true,
+          "title": "Great quality!!",
+          "body": "Awesome !! In the past I would need several drying towels or my leaf blower to dry my full size pickup…This Blackline towel drys my entire truck…with NO wringing !!!Great product and highly recommend!!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-16",
+          "vp": true,
+          "title": "Car towel",
+          "body": "I get serious with my car care. And decided to level up my car drying process after seeing the Blackline microfiber towel advertised. Super soft out of the package. It made quick work of drying my car. Very absorbent. And best of all left no streaks or water marks."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-21",
+          "vp": true,
+          "title": "Best drying towel on the market, hands down.",
+          "body": "Well worth the price.  If you want a great quality drying towel for your car, rv, boat then this is your best bet.  My husband washed our boat and normally he will wax it too since it was in salt water, but this time he was so. pleased with how it looked after drying he skipped the waxing part.  You will not have streaks or spots after using the drying towel."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-26",
+          "vp": false,
+          "title": "Pretty good, take care of it and it’ll take care of you",
+          "body": "I’m a professional detailer for a collision repair shop, I clean cars after they’ve been fixed. We use these a good bit on the cars we do when they’re done being washed, they’re great. Just make sure you wash them separately from other towels that might have chemicals or debris on them, kinda ruins the way it absorbs water. That’s the same that can be said for any towel tho, so if you have rags/towels specific to drying your car you should be washing them separately anyways. Will not scratch your car, pretty simple to use, size makes it easier to dry cars quickly, especially if you’re a smaller person and would typically have to reach across the hood or roof to get it fully dried. Pretty much the standard as far what the texture of a towel should be for using on a car if you’re serious about taking care of your paint, tons of other “microfiber” towels say they won’t scratch and do. I’ve used tons of different kinds of towels and rags, these are by far the best to use for drying. Definitely make sure you clean the car thoroughly tho because you do not want hard objects like rock or dirt to stick to the towel because you will scratch your paint, that will happen with anything you use so just be careful and mindful. Overall, 10/10. If they weren’t as expensive as they are, I’d probably have about a dozen of them for work and a couple for myself"
+        },
+        {
+          "stars": 5,
+          "date": "2026-06-01",
+          "vp": true,
+          "title": "Great product fr fr",
+          "body": "This is an amazing product! It actually works!"
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "pos",
+      "label": "厚实高级 / 专业认可",
+      "terms": [
+        "plush",
+        "premium",
+        "quality",
+        "detailers",
+        "professional",
+        "1300 gsm"
+      ],
+      "count": 15,
+      "avg": 4.53,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 7,
+        "5": 8
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2026-05-26",
+          "snippet": "…d, take care of it and it’ll take care of you：I’m a professional detailer for a collision repair shop, I clean cars after they’ve been fixed. We use these a good bit on the…"
+        },
+        {
+          "stars": 4,
+          "date": "2025-07-28",
+          "snippet": "Works great maybe quality issues.：First the product does work and works well. It dried my entire Large sedan (bmw m5) and left no strea…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-08",
+          "snippet": "…our vehicles and I must say I am pleased with the quality of this towel. As directed, we washed first with the suggested Blackline detergent. The towels left no residu…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "snippet": "…b without feeling saturated too fast. If you want a quality drying towel that performs like it should, this one delivers. Highly recommend."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-21",
+          "snippet": "…s down.：Well worth the price. If you want a great quality drying towel for your car, rv, boat then this is your best bet. My husband washed our boat and normally he wi…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 4,
+          "date": "2024-09-19",
+          "vp": true,
+          "title": "Quality",
+          "body": "Like it a lot but too expensive"
+        },
+        {
+          "stars": 4,
+          "date": "2025-05-04",
+          "vp": true,
+          "title": "Up keep for quality",
+          "body": "Love the towel just dislike that you have to go buy other detergents to keep up with the quality ."
+        },
+        {
+          "stars": 4,
+          "date": "2025-05-13",
+          "vp": true,
+          "title": "High Quality",
+          "body": "A very good towel but it doesn’t get every drop like most people review. Depending on the paint it might streak. Overall, it is the best towel I have used, just not perfect like advertised."
+        },
+        {
+          "stars": 4,
+          "date": "2025-07-28",
+          "vp": true,
+          "title": "Works great maybe quality issues.",
+          "body": "First the product does work and works well. It dried my entire Large sedan (bmw m5) and left no streaks or water spots so if you want the product get it BUTTT its not perfect thats why I chose 4 stars. Idk if its a quality control issue or what but I had about 5 to 6 loose strings coming from the towel that I had to cut off. The appeard to be extra where after sewing it was ment to be cut but wasn't not a major deal but I wonder how that will effect the long-term of the product and if after some washes if it'll fall apart.TLDR: product works great but some quality control issues."
+        },
+        {
+          "stars": 4,
+          "date": "2025-11-22",
+          "vp": true,
+          "title": "Does it's job but...",
+          "body": "Product feels premium. Works great but after drying couple sections on my truck, I could see some water streaks. Still a good product."
+        },
+        {
+          "stars": 4,
+          "date": "2025-12-07",
+          "vp": true,
+          "title": "Good quality product",
+          "body": "It’s really a good product but I need one more to totally dry up my car. When it’s wet already it leaves some water marks."
+        },
+        {
+          "stars": 4,
+          "date": "2025-12-24",
+          "vp": true,
+          "title": "Good quality but expensive",
+          "body": "This is a good drying towel I was hoping for a better dry finish had to go back over areas that was dried at the end. I have purchased the Sminder two pack that has given me a similar performance at a lower cost. My vehicle is ceramic coated and water sheds off easily. I would purchase again if it was less expensive."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-23",
+          "vp": true,
+          "title": "Overall, highly recommended if you want a towel that actually works.",
+          "body": "The Blackline 24”x36” twisted-loop drying towel is a really good product. It dries fast, leaves no streaks, and doesn’t leave lint behind. The microfiber feels high quality and it’s reusable, so it lasts a long time. One pass is all you need to dry your car clean."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-08",
+          "vp": true,
+          "title": "Heavy, Thirsty Towels!",
+          "body": "My husband asked me to order one for each of our vehicles and I must say I am pleased with the quality of this towel. As directed, we washed first with the suggested Blackline detergent. The towels left no residue or streaks and our vehicles are as shiny as the day we purchased. I am hoping the towels hold their own because my husband has burned a considerable amount of money over the years with other vendors. So far, we are happy with this purchase."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "vp": true,
+          "title": "5 Stars – Massive, Absorbent, and Exactly as Advertised",
+          "body": "LOVE this towel. The Blackline 24” x 36” Twisted-Loop Car Drying Towel is absolutely as described. It’s large, super absorbent, and made drying our ’25 Escalade Sport Platinum incredibly easy. It handled the size of the vehicle with ease and made quick work of the job without feeling saturated too fast. If you want a quality drying towel that performs like it should, this one delivers. Highly recommend."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-16",
+          "vp": true,
+          "title": "High quality towel for cars",
+          "body": "Does a great job, no streaks!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-25",
+          "vp": true,
+          "title": "Great drying towel",
+          "body": "Got this for my husband for Christmas. He absolutely loves it for his car. He says it's the best drying towel he's had. Works great and leaves no streaks . Worth the price and great quality."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-07",
+          "vp": true,
+          "title": "Great quality!!",
+          "body": "Awesome !! In the past I would need several drying towels or my leaf blower to dry my full size pickup…This Blackline towel drys my entire truck…with NO wringing !!!Great product and highly recommend!!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-21",
+          "vp": true,
+          "title": "Best drying towel on the market, hands down.",
+          "body": "Well worth the price.  If you want a great quality drying towel for your car, rv, boat then this is your best bet.  My husband washed our boat and normally he will wax it too since it was in salt water, but this time he was so. pleased with how it looked after drying he skipped the waxing part.  You will not have streaks or spots after using the drying towel."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-26",
+          "vp": false,
+          "title": "Pretty good, take care of it and it’ll take care of you",
+          "body": "I’m a professional detailer for a collision repair shop, I clean cars after they’ve been fixed. We use these a good bit on the cars we do when they’re done being washed, they’re great. Just make sure you wash them separately from other towels that might have chemicals or debris on them, kinda ruins the way it absorbs water. That’s the same that can be said for any towel tho, so if you have rags/towels specific to drying your car you should be washing them separately anyways. Will not scratch your car, pretty simple to use, size makes it easier to dry cars quickly, especially if you’re a smaller person and would typically have to reach across the hood or roof to get it fully dried. Pretty much the standard as far what the texture of a towel should be for using on a car if you’re serious about taking care of your paint, tons of other “microfiber” towels say they won’t scratch and do. I’ve used tons of different kinds of towels and rags, these are by far the best to use for drying. Definitely make sure you clean the car thoroughly tho because you do not want hard objects like rock or dirt to stick to the towel because you will scratch your paint, that will happen with anything you use so just be careful and mindful. Overall, 10/10. If they weren’t as expensive as they are, I’d probably have about a dozen of them for work and a couple for myself"
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "留条痕 / 深色面板",
+      "terms": [
+        "leaves streaks",
+        "streaks",
+        "light streaks",
+        "streaking",
+        "second pass"
+      ],
+      "count": 12,
+      "avg": 1.25,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 9,
+        "2": 3,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 2,
+          "date": "2025-01-21",
+          "snippet": "…as advertised：The towel fresh out of the package leaves streaks behind, meaning it does not pick up water like they show in the videos. It may pick all the water up in one p…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-03",
+          "snippet": "…package, but in actual use, it left behind water streaks and lint all over my black paint. For something claiming to be 1300 GSM, it doesn’t absorb nearly as much as…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-29",
+          "snippet": "…with just one swipe.. but no it would still leave streaks after doing a swipe. Not easy on drying, I could have gotten one that was defective in whatever way but it wa…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-12-07",
+          "snippet": "…towel does not work good at all it's all lies left streaks from the first pass with a completely dry towel. I am returning it as soon as possible, the drying towel I b…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-03-06",
+          "snippet": "Leaves streaks：Brand new leaves streaks. Never washed with detergent, never used heat in the dryer only “air only” mode and…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2025-03-06",
+          "vp": true,
+          "title": "Leaves streaks",
+          "body": "Brand new leaves streaks. Never washed with detergent, never used heat in the dryer only “air only” mode and never used a dryer sheet. Just streaked straight out the package and after multiple uses and wash dry cycles."
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-03",
+          "vp": true,
+          "title": "Extremely Disappointed – Not Worth the Hype",
+          "body": "I bought this towel expecting “#1 rated” performance, but it completely missed the mark. It looked plush out of the package, but in actual use, it left behind water streaks and lint all over my black paint. For something claiming to be 1300 GSM, it doesn’t absorb nearly as much as my cheaper drying towels. After one wash, it lost its softness and started shedding fibers like crazy. Save your money—this is all hype and no quality. Definitely not a premium product."
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-12",
+          "vp": true,
+          "title": "Not what I expected",
+          "body": "Awful performance bought thinking black line was best do to reviews and extremely disappointed streaks and water marks"
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-29",
+          "vp": true,
+          "title": "ADS MUST BE PAID",
+          "body": "This towel was always advertised and seemed to be so good with just one swipe.. but no it would still leave streaks after doing a swipe. Not easy on drying, I could have gotten one that was defective in whatever way but it was not even soft either. Felt rough on the towel on certain areas right out of the packaging."
+        },
+        {
+          "stars": 1,
+          "date": "2025-07-27",
+          "vp": true,
+          "title": "Not the best for the price",
+          "body": "Leaves streaks behind"
+        },
+        {
+          "stars": 1,
+          "date": "2025-09-09",
+          "vp": true,
+          "title": "Leaves streaks",
+          "body": "Product leaves streaks even when dry. Contacted merchant and they refused to send me a replacement."
+        },
+        {
+          "stars": 1,
+          "date": "2025-12-07",
+          "vp": true,
+          "title": "Not a good drying towel!",
+          "body": "This towel does not work good at all it's all lies left streaks from the first pass with a completely dry towel. I am returning it as soon as possible, the drying towel I bought from orilly's for 15$ and have had for a year works way better!"
+        },
+        {
+          "stars": 1,
+          "date": "2026-03-11",
+          "vp": true,
+          "title": "Does not work as advertised",
+          "body": "Does not work as advertised. Streaks galore and can not finish washing a single vehicle."
+        },
+        {
+          "stars": 1,
+          "date": "2026-05-17",
+          "vp": true,
+          "title": "Bad product.",
+          "body": "DO NOT BUY THIS TOWEL it is a scam it scratches your paint and leaves streaks. It doesn’t soak up the water like it says it does!"
+        },
+        {
+          "stars": 2,
+          "date": "2025-01-21",
+          "vp": true,
+          "title": "Decent, but is not quite as advertised",
+          "body": "The towel fresh out of the package leaves streaks behind, meaning it does not pick up water like they show in the videos. It may pick all the water up in one pass if whatever you’re drying is ceramic coated. It does work better than the best of what you will find in automotive sections of stores and auto parts stores, but don’t expect to get the results they advertise. I haven’t experimented enough with it yet, but dragging the towel across the surface of a wet car feels and sounds similar to using a bathroom towel. Audibly sounds like it’s scratching, but I have not checked for any new scratches quite yet. I might not use it again for that reason."
+        },
+        {
+          "stars": 2,
+          "date": "2025-07-02",
+          "vp": true,
+          "title": "Not worth the money",
+          "body": "Seemed like a good drying towel out of package and first swipe left the streaks and end result was mediocre"
+        },
+        {
+          "stars": 2,
+          "date": "2026-04-23",
+          "vp": true,
+          "title": "too thick to be wringing out constantly",
+          "body": "its alright  leaves streaks half way drying my truck its very hard Wringing it out its too thick"
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "怀疑划伤漆面",
+      "terms": [
+        "scratches",
+        "scratched",
+        "micro scratches",
+        "put scratches"
+      ],
+      "count": 7,
+      "avg": 1.29,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 5,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 2,
+          "date": "2025-01-21",
+          "snippet": "…e it’s scratching, but I have not checked for any new scratches quite yet. I might not use it again for that reason."
+        },
+        {
+          "stars": 1,
+          "date": "2026-02-22",
+          "snippet": "Scratches：This towel left micro scratches all over my car. Not sure why there’s so many good reviews. If you have a bla…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-04-15",
+          "snippet": "Scratches car：Scratched my brand new car.. sending it backSocial media influenced me. Lesson learned. One time use and…"
+        },
+        {
+          "stars": 1,
+          "date": "2026-05-17",
+          "snippet": "…ad product.：DO NOT BUY THIS TOWEL it is a scam it scratches your paint and leaves streaks. It doesn’t soak up the water like it says it does!"
+        },
+        {
+          "stars": 1,
+          "date": "2025-06-10",
+          "snippet": "Microscratches：Left microscratches all over brand new car.Just buy an air blower do not ruin your car with this."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2025-04-15",
+          "vp": true,
+          "title": "Scratches car",
+          "body": "Scratched my brand new car.. sending it backSocial media influenced me. Lesson learned. One time use and boom scratches . Disappointed."
+        },
+        {
+          "stars": 1,
+          "date": "2025-06-10",
+          "vp": true,
+          "title": "Microscratches",
+          "body": "Left microscratches all over brand new car.Just buy an air blower do not ruin your car with this."
+        },
+        {
+          "stars": 1,
+          "date": "2026-02-22",
+          "vp": true,
+          "title": "Scratches",
+          "body": "This towel left micro scratches all over my car. Not sure why there’s so many good reviews. If you have a black car definitely don’t use this towel."
+        },
+        {
+          "stars": 1,
+          "date": "2026-04-13",
+          "vp": true,
+          "title": "Scratches",
+          "body": "I’m almost positive this towel put a couple scratches on my truck, I won’t be using this again"
+        },
+        {
+          "stars": 1,
+          "date": "2026-05-17",
+          "vp": true,
+          "title": "Bad product.",
+          "body": "DO NOT BUY THIS TOWEL it is a scam it scratches your paint and leaves streaks. It doesn’t soak up the water like it says it does!"
+        },
+        {
+          "stars": 2,
+          "date": "2025-01-21",
+          "vp": true,
+          "title": "Decent, but is not quite as advertised",
+          "body": "The towel fresh out of the package leaves streaks behind, meaning it does not pick up water like they show in the videos. It may pick all the water up in one pass if whatever you’re drying is ceramic coated. It does work better than the best of what you will find in automotive sections of stores and auto parts stores, but don’t expect to get the results they advertise. I haven’t experimented enough with it yet, but dragging the towel across the surface of a wet car feels and sounds similar to using a bathroom towel. Audibly sounds like it’s scratching, but I have not checked for any new scratches quite yet. I might not use it again for that reason."
+        },
+        {
+          "stars": 2,
+          "date": "2026-01-02",
+          "vp": true,
+          "title": "Don",
+          "body": "Not linedWill cause minor scratches"
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "吸饱难拧 / 越擦越湿",
+      "terms": [
+        "hard to wring",
+        "hard to squeeze",
+        "gets soaked",
+        "spreading water",
+        "wont dry out"
+      ],
+      "count": 2,
+      "avg": 1.5,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 1,
+          "date": "2025-07-15",
+          "snippet": "…s on it. For starters the towel is to heavy and very hard to squeeze all the water out of it."
+        },
+        {
+          "stars": 2,
+          "date": "2026-05-27",
+          "snippet": "Gets soaked quickly：It works ok in the beginning but gets soaked pretty quick. No worth the money"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2025-07-15",
+          "vp": true,
+          "title": "To heavy and doesn’t dry like it should.",
+          "body": "This towel didn’t do what it supposed to. First time using it and didn’t dry the car hood or front window completely it left water lines on it. For starters the towel is to heavy and very hard to squeeze all the water out of it."
+        },
+        {
+          "stars": 2,
+          "date": "2026-05-27",
+          "vp": true,
+          "title": "Gets soaked quickly",
+          "body": "It works ok in the beginning but gets soaked pretty quick. No worth the money"
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "大车不够用",
+      "terms": [
+        "big truck",
+        "more than one car",
+        "should have ordered two",
+        "one car only"
+      ],
+      "count": 0,
+      "avg": 0,
+      "low_pct": 0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [],
+      "reviews": []
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "偏贵 / 不值",
+      "terms": [
+        "not worth",
+        "overpriced",
+        "just a normal",
+        "not worth the money"
+      ],
+      "count": 7,
+      "avg": 1.43,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 4,
+        "2": 3,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 1,
+          "date": "2026-04-09",
+          "snippet": "Not worth the hype. Beware!!!：Towels are no different than most towels on Amazon. To be honest nothing beats Adams Poli…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-03",
+          "snippet": "Extremely Disappointed – Not Worth the Hype：I bought this towel expecting “#1 rated” performance, but it completely missed the mark. It looked p…"
+        },
+        {
+          "stars": 1,
+          "date": "2024-05-12",
+          "snippet": "…ooking worse than what it did before I washed it. Not worth having it in my detail collection."
+        },
+        {
+          "stars": 2,
+          "date": "2026-05-07",
+          "snippet": "…’t do what has been shown in the ads. Just a normal overpriced towel"
+        },
+        {
+          "stars": 2,
+          "date": "2025-07-02",
+          "snippet": "Not worth the money：Seemed like a good drying towel out of package and first swipe left the streaks and end result was…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2024-05-12",
+          "vp": true,
+          "title": "This towel is not a good product!!!",
+          "body": "The towel left my car looking horrible!!! It does not absorb as well as the I hoped it would. This towel had my car looking worse than what it did before I washed it. Not worth having it in my detail collection."
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-03",
+          "vp": true,
+          "title": "Extremely Disappointed – Not Worth the Hype",
+          "body": "I bought this towel expecting “#1 rated” performance, but it completely missed the mark. It looked plush out of the package, but in actual use, it left behind water streaks and lint all over my black paint. For something claiming to be 1300 GSM, it doesn’t absorb nearly as much as my cheaper drying towels. After one wash, it lost its softness and started shedding fibers like crazy. Save your money—this is all hype and no quality. Definitely not a premium product."
+        },
+        {
+          "stars": 1,
+          "date": "2025-07-11",
+          "vp": true,
+          "title": "Not worth the money",
+          "body": "Not worth the moneyI have a black car and u can see all the water marks  better options on the market"
+        },
+        {
+          "stars": 1,
+          "date": "2026-04-09",
+          "vp": false,
+          "title": "Not worth the hype. Beware!!!",
+          "body": "Towels are no different than most towels on Amazon. To be honest nothing beats Adams Polish towels. Gave Blackline a shot because of their marketing on my feed and i can tell you their towels are not a big as you think they are or in comparison to other manufactuers. Contacted customer service which can only be done by email to see if i could exchange my unopened towels for the bigger more expensive and they said no all sales final. Be careful ordering from this company. Look at more reputable companies with honest marketing and better customer service."
+        },
+        {
+          "stars": 2,
+          "date": "2025-07-02",
+          "vp": true,
+          "title": "Not worth the money",
+          "body": "Seemed like a good drying towel out of package and first swipe left the streaks and end result was mediocre"
+        },
+        {
+          "stars": 2,
+          "date": "2025-07-30",
+          "vp": true,
+          "title": "Waste of money",
+          "body": "Not worth the money. Didn’t dry as advertised"
+        },
+        {
+          "stars": 2,
+          "date": "2026-05-07",
+          "vp": true,
+          "title": "Not impressed",
+          "body": "I don’t see all the hype from the Facebook reviews. Definitely doesn’t do what has been shown in the ads. Just a normal overpriced towel"
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "营销夸大 / 与广告不符",
+      "terms": [
+        "hype",
+        "doesnt do what",
+        "scam",
+        "facebook",
+        "marketing"
+      ],
+      "count": 5,
+      "avg": 1.2,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 4,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 1,
+          "date": "2026-04-09",
+          "snippet": "Not worth the hype. Beware!!!：Towels are no different than most towels on Amazon. To be honest nothing beats Adams Polish towels…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-03",
+          "snippet": "Extremely Disappointed – Not Worth the Hype：I bought this towel expecting “#1 rated” performance, but it completely missed the mark. It looked plush out…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-11-27",
+          "snippet": "…ds：This towel is just an average drying towel overhyped and always has bad comparisons on there ads, now fake amazon deals I don't recommend this brand to any real…"
+        },
+        {
+          "stars": 2,
+          "date": "2026-05-07",
+          "snippet": "Not impressed：I don’t see all the hype from the Facebook reviews. Definitely doesn’t do what has been shown in the ads. Just a normal overpriced to…"
+        },
+        {
+          "stars": 1,
+          "date": "2026-05-17",
+          "snippet": "Bad product.：DO NOT BUY THIS TOWEL it is a scam it scratches your paint and leaves streaks. It doesn’t soak up the water like it says it does!"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2025-05-03",
+          "vp": true,
+          "title": "Extremely Disappointed – Not Worth the Hype",
+          "body": "I bought this towel expecting “#1 rated” performance, but it completely missed the mark. It looked plush out of the package, but in actual use, it left behind water streaks and lint all over my black paint. For something claiming to be 1300 GSM, it doesn’t absorb nearly as much as my cheaper drying towels. After one wash, it lost its softness and started shedding fibers like crazy. Save your money—this is all hype and no quality. Definitely not a premium product."
+        },
+        {
+          "stars": 1,
+          "date": "2025-11-27",
+          "vp": true,
+          "title": "Fake deals to fake comparisons on ads",
+          "body": "This towel is just an average drying towel overhyped and always has bad comparisons on there ads, now fake amazon deals I don't recommend this brand to any real car detailing enthusiast"
+        },
+        {
+          "stars": 1,
+          "date": "2026-04-09",
+          "vp": false,
+          "title": "Not worth the hype. Beware!!!",
+          "body": "Towels are no different than most towels on Amazon. To be honest nothing beats Adams Polish towels. Gave Blackline a shot because of their marketing on my feed and i can tell you their towels are not a big as you think they are or in comparison to other manufactuers. Contacted customer service which can only be done by email to see if i could exchange my unopened towels for the bigger more expensive and they said no all sales final. Be careful ordering from this company. Look at more reputable companies with honest marketing and better customer service."
+        },
+        {
+          "stars": 1,
+          "date": "2026-05-17",
+          "vp": true,
+          "title": "Bad product.",
+          "body": "DO NOT BUY THIS TOWEL it is a scam it scratches your paint and leaves streaks. It doesn’t soak up the water like it says it does!"
+        },
+        {
+          "stars": 2,
+          "date": "2026-05-07",
+          "vp": true,
+          "title": "Not impressed",
+          "body": "I don’t see all the hype from the Facebook reviews. Definitely doesn’t do what has been shown in the ads. Just a normal overpriced towel"
+        }
+      ]
+    },
+    {
+      "source": "keywords",
+      "polarity": "neg",
+      "label": "尺寸/厚度不及预期",
+      "terms": [
+        "smaller",
+        "not as big",
+        "thinner",
+        "feels thin"
+      ],
+      "count": 1,
+      "avg": 1.0,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 1,
+          "date": "2024-12-10",
+          "snippet": "…nd a waste of money . I buy cheaper , less thick , smaller sized ones from Amazon that do a way way way better job than this stupid towel."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2024-12-10",
+          "vp": true,
+          "title": "This towel is HORRIBLE don’t let TikTok fool you",
+          "body": "This towel is garbage and a waste of money . I buy cheaper , less thick , smaller sized ones from Amazon that do a way way way better job than this stupid towel."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "💧 吸水 & 拧干（痛点） · 吸饱后难拧干 / 越擦越湿",
+      "terms": [
+        "hard to wring",
+        "hard to squeeze",
+        "gets soaked",
+        "soaked",
+        "spreading water",
+        "holds too much water",
+        "wont dry out",
+        "hard to dry"
+      ],
+      "count": 6,
+      "avg": 2.17,
+      "low_pct": 50.0,
+      "star_dist": {
+        "1": 2,
+        "2": 1,
+        "3": 3,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 1,
+          "date": "2024-08-31",
+          "snippet": "…retty much it. There's a bit of weight to it making it hard to dry the whole car. It also wasn't easy trying to ring it out. Over all disappointed in this product I will n…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-07-15",
+          "snippet": "…s on it. For starters the towel is to heavy and very hard to squeeze all the water out of it."
+        },
+        {
+          "stars": 3,
+          "date": "2026-04-21",
+          "snippet": "…e until it accumulates a lot of water. It is very hard to squeeze and all it is you're doing is spreading water across the whole truck."
+        },
+        {
+          "stars": 3,
+          "date": "2026-01-14",
+          "snippet": "Hard to dry：Once when towel gets wet it is very hard to dry, even the spin cycle on washing machine would not take the wa…"
+        },
+        {
+          "stars": 3,
+          "date": "2025-05-02",
+          "snippet": "Decent but……：Hard to dry after using and the towel gets so heavy as you dry the car that it’s hard to manage."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2024-08-31",
+          "vp": true,
+          "title": "Honest review",
+          "body": "This is an honest review that was not sponsored!I want to start off my saying my car is brand new  so it doesn't have any ceramic coating. I bought this with high hopes because I was influenced on social media. Come to find out it's just the same as every other drying towel. There is nothing really special about it..As you can see on my video + pictures it leaves streak marks on any swipe. I eventually had to use my OG drying towel.I guess the only positive from this product is the size and it's somewhat soft but that's pretty much it. There's a bit of weight to it making it hard to dry the whole car. It also wasn't easy trying to ring it out. Over all disappointed in this product I will not be keeping it."
+        },
+        {
+          "stars": 1,
+          "date": "2025-07-15",
+          "vp": true,
+          "title": "To heavy and doesn’t dry like it should.",
+          "body": "This towel didn’t do what it supposed to. First time using it and didn’t dry the car hood or front window completely it left water lines on it. For starters the towel is to heavy and very hard to squeeze all the water out of it."
+        },
+        {
+          "stars": 2,
+          "date": "2026-05-27",
+          "vp": true,
+          "title": "Gets soaked quickly",
+          "body": "It works ok in the beginning but gets soaked pretty quick. No worth the money"
+        },
+        {
+          "stars": 3,
+          "date": "2025-05-02",
+          "vp": true,
+          "title": "Decent but……",
+          "body": "Hard to dry after using and the towel gets so heavy as you dry the car that it’s hard to manage."
+        },
+        {
+          "stars": 3,
+          "date": "2026-01-14",
+          "vp": true,
+          "title": "Hard to dry",
+          "body": "Once when towel gets wet it is very hard to dry, even the spin cycle on washing machine would not take the water out, I know it’s made to hold water but there has to be a easier way."
+        },
+        {
+          "stars": 3,
+          "date": "2026-04-21",
+          "vp": true,
+          "title": "Not worth the price",
+          "body": "I have a big truck and when the towel is dry, it works incredible for a minute until it accumulates a lot of water. It is very hard to squeeze and all it is you're doing is spreading water across the whole truck."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "💧 吸水 & 拧干（痛点） · 大车不够用 / 需要两条",
+      "terms": [
+        "big truck",
+        "more than one car",
+        "should have ordered two",
+        "struggling",
+        "one car only"
+      ],
+      "count": 2,
+      "avg": 3.0,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 3,
+          "date": "2025-12-26",
+          "snippet": "…more than 1 sedan-sized vehicle, the towel started struggling, which adds to my assumption that the 1300GSM claim may be wrong. Be wary."
+        },
+        {
+          "stars": 3,
+          "date": "2026-04-21",
+          "snippet": "Not worth the price：I have a big truck and when the towel is dry, it works incredible for a minute until it accumulates a lot of water. It is very h…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 3,
+          "date": "2025-12-26",
+          "vp": true,
+          "title": "Good for 1 car, but is it truly 1300GSM?",
+          "body": "Compared to other towels I've purchased, the 1300GSM claim seems to be under what my other drying towels feel like. I don't have any way to scientifically test this, but it is a little disappointing.Overall, the fabric is good enough to fully dry off one car, but when I needed to do more than 1 sedan-sized vehicle, the towel started struggling, which adds to my assumption that the 1300GSM claim may be wrong. Be wary."
+        },
+        {
+          "stars": 3,
+          "date": "2026-04-21",
+          "vp": true,
+          "title": "Not worth the price",
+          "body": "I have a big truck and when the towel is dry, it works incredible for a minute until it accumulates a lot of water. It is very hard to squeeze and all it is you're doing is spreading water across the whole truck."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "🌀 条痕 & 残留（痛点） · 留条痕 / 深色面板明显",
+      "terms": [
+        "leaves streaks",
+        "streaks",
+        "light streaks",
+        "second pass",
+        "darker panels",
+        "streaking"
+      ],
+      "count": 16,
+      "avg": 1.69,
+      "low_pct": 75.0,
+      "star_dist": {
+        "1": 9,
+        "2": 3,
+        "3": 4,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 2,
+          "date": "2025-01-21",
+          "snippet": "…as advertised：The towel fresh out of the package leaves streaks behind, meaning it does not pick up water like they show in the videos. It may pick all the water up in one p…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-03",
+          "snippet": "…package, but in actual use, it left behind water streaks and lint all over my black paint. For something claiming to be 1300 GSM, it doesn’t absorb nearly as much as…"
+        },
+        {
+          "stars": 3,
+          "date": "2025-05-21",
+          "snippet": "…ompletely dry the whole car, but it does not leave streaks in the sections. It does dry it completely dry, but I did have to purchase a second one for one car so yeah…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-29",
+          "snippet": "…with just one swipe.. but no it would still leave streaks after doing a swipe. Not easy on drying, I could have gotten one that was defective in whatever way but it wa…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-12-07",
+          "snippet": "…towel does not work good at all it's all lies left streaks from the first pass with a completely dry towel. I am returning it as soon as possible, the drying towel I b…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2025-03-06",
+          "vp": true,
+          "title": "Leaves streaks",
+          "body": "Brand new leaves streaks. Never washed with detergent, never used heat in the dryer only “air only” mode and never used a dryer sheet. Just streaked straight out the package and after multiple uses and wash dry cycles."
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-03",
+          "vp": true,
+          "title": "Extremely Disappointed – Not Worth the Hype",
+          "body": "I bought this towel expecting “#1 rated” performance, but it completely missed the mark. It looked plush out of the package, but in actual use, it left behind water streaks and lint all over my black paint. For something claiming to be 1300 GSM, it doesn’t absorb nearly as much as my cheaper drying towels. After one wash, it lost its softness and started shedding fibers like crazy. Save your money—this is all hype and no quality. Definitely not a premium product."
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-12",
+          "vp": true,
+          "title": "Not what I expected",
+          "body": "Awful performance bought thinking black line was best do to reviews and extremely disappointed streaks and water marks"
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-29",
+          "vp": true,
+          "title": "ADS MUST BE PAID",
+          "body": "This towel was always advertised and seemed to be so good with just one swipe.. but no it would still leave streaks after doing a swipe. Not easy on drying, I could have gotten one that was defective in whatever way but it was not even soft either. Felt rough on the towel on certain areas right out of the packaging."
+        },
+        {
+          "stars": 1,
+          "date": "2025-07-27",
+          "vp": true,
+          "title": "Not the best for the price",
+          "body": "Leaves streaks behind"
+        },
+        {
+          "stars": 1,
+          "date": "2025-09-09",
+          "vp": true,
+          "title": "Leaves streaks",
+          "body": "Product leaves streaks even when dry. Contacted merchant and they refused to send me a replacement."
+        },
+        {
+          "stars": 1,
+          "date": "2025-12-07",
+          "vp": true,
+          "title": "Not a good drying towel!",
+          "body": "This towel does not work good at all it's all lies left streaks from the first pass with a completely dry towel. I am returning it as soon as possible, the drying towel I bought from orilly's for 15$ and have had for a year works way better!"
+        },
+        {
+          "stars": 1,
+          "date": "2026-03-11",
+          "vp": true,
+          "title": "Does not work as advertised",
+          "body": "Does not work as advertised. Streaks galore and can not finish washing a single vehicle."
+        },
+        {
+          "stars": 1,
+          "date": "2026-05-17",
+          "vp": true,
+          "title": "Bad product.",
+          "body": "DO NOT BUY THIS TOWEL it is a scam it scratches your paint and leaves streaks. It doesn’t soak up the water like it says it does!"
+        },
+        {
+          "stars": 2,
+          "date": "2025-01-21",
+          "vp": true,
+          "title": "Decent, but is not quite as advertised",
+          "body": "The towel fresh out of the package leaves streaks behind, meaning it does not pick up water like they show in the videos. It may pick all the water up in one pass if whatever you’re drying is ceramic coated. It does work better than the best of what you will find in automotive sections of stores and auto parts stores, but don’t expect to get the results they advertise. I haven’t experimented enough with it yet, but dragging the towel across the surface of a wet car feels and sounds similar to using a bathroom towel. Audibly sounds like it’s scratching, but I have not checked for any new scratches quite yet. I might not use it again for that reason."
+        },
+        {
+          "stars": 2,
+          "date": "2025-07-02",
+          "vp": true,
+          "title": "Not worth the money",
+          "body": "Seemed like a good drying towel out of package and first swipe left the streaks and end result was mediocre"
+        },
+        {
+          "stars": 2,
+          "date": "2026-04-23",
+          "vp": true,
+          "title": "too thick to be wringing out constantly",
+          "body": "its alright  leaves streaks half way drying my truck its very hard Wringing it out its too thick"
+        },
+        {
+          "stars": 3,
+          "date": "2025-05-21",
+          "vp": true,
+          "title": "It’s a good and large",
+          "body": "It almost does what it says it should do. I have an SUV and although it does hold a lot of water, I do find myself not being able to completely dry the whole car, but it does not leave streaks in the sections. It does dry it completely dry, but I did have to purchase a second one for one car so yeah if you have a small to medium size vehicle, this will work perfect a large SUV. you probably will need 2"
+        },
+        {
+          "stars": 3,
+          "date": "2025-06-05",
+          "vp": false,
+          "title": "Good when its new",
+          "body": "It worked well the first time when it was brand new.but after the first or second use it leaves streaks on the car."
+        },
+        {
+          "stars": 3,
+          "date": "2025-06-15",
+          "vp": true,
+          "title": "6.5/10",
+          "body": "Bought cause i saw it was blowing up everywhere. Honest review, the towel was alright it would dry cars good but after wiping a couple spots down it gets too wet and leaves streaks. Good towel but not worth the hype in my opinion"
+        },
+        {
+          "stars": 3,
+          "date": "2025-08-06",
+          "vp": true,
+          "title": "Not worth the money",
+          "body": "Worked great the first time it was used, after that it leaves streaks and isn’t as absorbent."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "⚠️ 划痕 & 漆面安全（痛点） · 怀疑划伤漆面",
+      "terms": [
+        "scratches",
+        "scratched",
+        "micro scratches",
+        "put scratches",
+        "scratch my"
+      ],
+      "count": 8,
+      "avg": 1.25,
+      "low_pct": 100.0,
+      "star_dist": {
+        "1": 6,
+        "2": 2,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 2,
+          "date": "2025-01-21",
+          "snippet": "…e it’s scratching, but I have not checked for any new scratches quite yet. I might not use it again for that reason."
+        },
+        {
+          "stars": 1,
+          "date": "2026-02-22",
+          "snippet": "Scratches：This towel left micro scratches all over my car. Not sure why there’s so many good reviews. If you have a bla…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-04-15",
+          "snippet": "Scratches car：Scratched my brand new car.. sending it backSocial media influenced me. Lesson learned. One time use and…"
+        },
+        {
+          "stars": 1,
+          "date": "2026-05-17",
+          "snippet": "…ad product.：DO NOT BUY THIS TOWEL it is a scam it scratches your paint and leaves streaks. It doesn’t soak up the water like it says it does!"
+        },
+        {
+          "stars": 1,
+          "date": "2025-06-10",
+          "snippet": "Microscratches：Left microscratches all over brand new car.Just buy an air blower do not ruin your car with this."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2025-03-17",
+          "vp": true,
+          "title": "Rough material",
+          "body": "Poor qualityHard and roughI sent it backIt would definitely scratch my car"
+        },
+        {
+          "stars": 1,
+          "date": "2025-04-15",
+          "vp": true,
+          "title": "Scratches car",
+          "body": "Scratched my brand new car.. sending it backSocial media influenced me. Lesson learned. One time use and boom scratches . Disappointed."
+        },
+        {
+          "stars": 1,
+          "date": "2025-06-10",
+          "vp": true,
+          "title": "Microscratches",
+          "body": "Left microscratches all over brand new car.Just buy an air blower do not ruin your car with this."
+        },
+        {
+          "stars": 1,
+          "date": "2026-02-22",
+          "vp": true,
+          "title": "Scratches",
+          "body": "This towel left micro scratches all over my car. Not sure why there’s so many good reviews. If you have a black car definitely don’t use this towel."
+        },
+        {
+          "stars": 1,
+          "date": "2026-04-13",
+          "vp": true,
+          "title": "Scratches",
+          "body": "I’m almost positive this towel put a couple scratches on my truck, I won’t be using this again"
+        },
+        {
+          "stars": 1,
+          "date": "2026-05-17",
+          "vp": true,
+          "title": "Bad product.",
+          "body": "DO NOT BUY THIS TOWEL it is a scam it scratches your paint and leaves streaks. It doesn’t soak up the water like it says it does!"
+        },
+        {
+          "stars": 2,
+          "date": "2025-01-21",
+          "vp": true,
+          "title": "Decent, but is not quite as advertised",
+          "body": "The towel fresh out of the package leaves streaks behind, meaning it does not pick up water like they show in the videos. It may pick all the water up in one pass if whatever you’re drying is ceramic coated. It does work better than the best of what you will find in automotive sections of stores and auto parts stores, but don’t expect to get the results they advertise. I haven’t experimented enough with it yet, but dragging the towel across the surface of a wet car feels and sounds similar to using a bathroom towel. Audibly sounds like it’s scratching, but I have not checked for any new scratches quite yet. I might not use it again for that reason."
+        },
+        {
+          "stars": 2,
+          "date": "2026-01-02",
+          "vp": true,
+          "title": "Don",
+          "body": "Not linedWill cause minor scratches"
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "💰 价格 & 营销（痛点） · 偏贵 / 不值",
+      "terms": [
+        "not worth",
+        "overpriced",
+        "not worth the money",
+        "just a normal",
+        "expensive"
+      ],
+      "count": 10,
+      "avg": 1.9,
+      "low_pct": 70.0,
+      "star_dist": {
+        "1": 4,
+        "2": 3,
+        "3": 3,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 1,
+          "date": "2026-04-09",
+          "snippet": "Not worth the hype. Beware!!!：Towels are no different than most towels on Amazon. To be honest nothing beats Adams Poli…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-03",
+          "snippet": "Extremely Disappointed – Not Worth the Hype：I bought this towel expecting “#1 rated” performance, but it completely missed the mark. It looked p…"
+        },
+        {
+          "stars": 3,
+          "date": "2025-06-15",
+          "snippet": "…t gets too wet and leaves streaks. Good towel but not worth the hype in my opinion"
+        },
+        {
+          "stars": 3,
+          "date": "2026-04-21",
+          "snippet": "Not worth the price：I have a big truck and when the towel is dry, it works incredible for a minute until it accumulates…"
+        },
+        {
+          "stars": 1,
+          "date": "2024-05-12",
+          "snippet": "…ooking worse than what it did before I washed it. Not worth having it in my detail collection."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2024-05-12",
+          "vp": true,
+          "title": "This towel is not a good product!!!",
+          "body": "The towel left my car looking horrible!!! It does not absorb as well as the I hoped it would. This towel had my car looking worse than what it did before I washed it. Not worth having it in my detail collection."
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-03",
+          "vp": true,
+          "title": "Extremely Disappointed – Not Worth the Hype",
+          "body": "I bought this towel expecting “#1 rated” performance, but it completely missed the mark. It looked plush out of the package, but in actual use, it left behind water streaks and lint all over my black paint. For something claiming to be 1300 GSM, it doesn’t absorb nearly as much as my cheaper drying towels. After one wash, it lost its softness and started shedding fibers like crazy. Save your money—this is all hype and no quality. Definitely not a premium product."
+        },
+        {
+          "stars": 1,
+          "date": "2025-07-11",
+          "vp": true,
+          "title": "Not worth the money",
+          "body": "Not worth the moneyI have a black car and u can see all the water marks  better options on the market"
+        },
+        {
+          "stars": 1,
+          "date": "2026-04-09",
+          "vp": false,
+          "title": "Not worth the hype. Beware!!!",
+          "body": "Towels are no different than most towels on Amazon. To be honest nothing beats Adams Polish towels. Gave Blackline a shot because of their marketing on my feed and i can tell you their towels are not a big as you think they are or in comparison to other manufactuers. Contacted customer service which can only be done by email to see if i could exchange my unopened towels for the bigger more expensive and they said no all sales final. Be careful ordering from this company. Look at more reputable companies with honest marketing and better customer service."
+        },
+        {
+          "stars": 2,
+          "date": "2025-07-02",
+          "vp": true,
+          "title": "Not worth the money",
+          "body": "Seemed like a good drying towel out of package and first swipe left the streaks and end result was mediocre"
+        },
+        {
+          "stars": 2,
+          "date": "2025-07-30",
+          "vp": true,
+          "title": "Waste of money",
+          "body": "Not worth the money. Didn’t dry as advertised"
+        },
+        {
+          "stars": 2,
+          "date": "2026-05-07",
+          "vp": true,
+          "title": "Not impressed",
+          "body": "I don’t see all the hype from the Facebook reviews. Definitely doesn’t do what has been shown in the ads. Just a normal overpriced towel"
+        },
+        {
+          "stars": 3,
+          "date": "2025-06-15",
+          "vp": true,
+          "title": "6.5/10",
+          "body": "Bought cause i saw it was blowing up everywhere. Honest review, the towel was alright it would dry cars good but after wiping a couple spots down it gets too wet and leaves streaks. Good towel but not worth the hype in my opinion"
+        },
+        {
+          "stars": 3,
+          "date": "2025-08-06",
+          "vp": true,
+          "title": "Not worth the money",
+          "body": "Worked great the first time it was used, after that it leaves streaks and isn’t as absorbent."
+        },
+        {
+          "stars": 3,
+          "date": "2026-04-21",
+          "vp": true,
+          "title": "Not worth the price",
+          "body": "I have a big truck and when the towel is dry, it works incredible for a minute until it accumulates a lot of water. It is very hard to squeeze and all it is you're doing is spreading water across the whole truck."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "💰 价格 & 营销（痛点） · 营销夸大 / 与广告不符",
+      "terms": [
+        "hype",
+        "doesnt do what",
+        "scam",
+        "facebook",
+        "marketing"
+      ],
+      "count": 9,
+      "avg": 2.0,
+      "low_pct": 55.6,
+      "star_dist": {
+        "1": 4,
+        "2": 1,
+        "3": 4,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 3,
+          "date": "2025-08-25",
+          "snippet": "…very durable.：Overall, this towel lives up to the hype. Very large, streak-free drying, and super absorbent. However, my 3-star review is based on the fact that I w…"
+        },
+        {
+          "stars": 1,
+          "date": "2026-04-09",
+          "snippet": "Not worth the hype. Beware!!!：Towels are no different than most towels on Amazon. To be honest nothing beats Adams Polish towels…"
+        },
+        {
+          "stars": 1,
+          "date": "2025-05-03",
+          "snippet": "Extremely Disappointed – Not Worth the Hype：I bought this towel expecting “#1 rated” performance, but it completely missed the mark. It looked plush out…"
+        },
+        {
+          "stars": 3,
+          "date": "2025-06-15",
+          "snippet": "…and leaves streaks. Good towel but not worth the hype in my opinion"
+        },
+        {
+          "stars": 1,
+          "date": "2025-11-27",
+          "snippet": "…ds：This towel is just an average drying towel overhyped and always has bad comparisons on there ads, now fake amazon deals I don't recommend this brand to any real…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2025-05-03",
+          "vp": true,
+          "title": "Extremely Disappointed – Not Worth the Hype",
+          "body": "I bought this towel expecting “#1 rated” performance, but it completely missed the mark. It looked plush out of the package, but in actual use, it left behind water streaks and lint all over my black paint. For something claiming to be 1300 GSM, it doesn’t absorb nearly as much as my cheaper drying towels. After one wash, it lost its softness and started shedding fibers like crazy. Save your money—this is all hype and no quality. Definitely not a premium product."
+        },
+        {
+          "stars": 1,
+          "date": "2025-11-27",
+          "vp": true,
+          "title": "Fake deals to fake comparisons on ads",
+          "body": "This towel is just an average drying towel overhyped and always has bad comparisons on there ads, now fake amazon deals I don't recommend this brand to any real car detailing enthusiast"
+        },
+        {
+          "stars": 1,
+          "date": "2026-04-09",
+          "vp": false,
+          "title": "Not worth the hype. Beware!!!",
+          "body": "Towels are no different than most towels on Amazon. To be honest nothing beats Adams Polish towels. Gave Blackline a shot because of their marketing on my feed and i can tell you their towels are not a big as you think they are or in comparison to other manufactuers. Contacted customer service which can only be done by email to see if i could exchange my unopened towels for the bigger more expensive and they said no all sales final. Be careful ordering from this company. Look at more reputable companies with honest marketing and better customer service."
+        },
+        {
+          "stars": 1,
+          "date": "2026-05-17",
+          "vp": true,
+          "title": "Bad product.",
+          "body": "DO NOT BUY THIS TOWEL it is a scam it scratches your paint and leaves streaks. It doesn’t soak up the water like it says it does!"
+        },
+        {
+          "stars": 2,
+          "date": "2026-05-07",
+          "vp": true,
+          "title": "Not impressed",
+          "body": "I don’t see all the hype from the Facebook reviews. Definitely doesn’t do what has been shown in the ads. Just a normal overpriced towel"
+        },
+        {
+          "stars": 3,
+          "date": "2025-06-15",
+          "vp": true,
+          "title": "6.5/10",
+          "body": "Bought cause i saw it was blowing up everywhere. Honest review, the towel was alright it would dry cars good but after wiping a couple spots down it gets too wet and leaves streaks. Good towel but not worth the hype in my opinion"
+        },
+        {
+          "stars": 3,
+          "date": "2025-07-02",
+          "vp": true,
+          "title": "It’s ok.",
+          "body": "It’s ok… maybe my expectations were high from all the social media hype. Nothing to write home about."
+        },
+        {
+          "stars": 3,
+          "date": "2025-08-25",
+          "vp": true,
+          "title": "Apparently not very durable.",
+          "body": "Overall, this towel lives up to the hype. Very large, streak-free drying, and super absorbent. However, my 3-star review is based on the fact that I was only able to use this towel once before it started to fray and the stitching came apart. While these towels are generally affordable, it's still a purchase that I made with hopes of having a new favorite drying towel that would last a while, and I'm very disappointed that I was only able to get one use out of it before it started to come apart. Haven't even washed it yet, simply used it to dry a vehicle and hung it on a drying rack to air dry when I noticed the threads coming out. Will add a picture or two later to explain, but overall not super thrilled with it."
+        },
+        {
+          "stars": 3,
+          "date": "2025-12-07",
+          "vp": true,
+          "title": "Not as advertised",
+          "body": "Doesn’t work as advertised.  Thought I would try it on my brand new truck and see how it would do … well didn’t live up to its hype."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "neg",
+      "label": "📏 尺寸 & 厚度（痛点） · 比预期小 / 1300GSM 存疑",
+      "terms": [
+        "smaller",
+        "not as big",
+        "1300gsm",
+        "thinner",
+        "feels thin"
+      ],
+      "count": 3,
+      "avg": 2.33,
+      "low_pct": 33.3,
+      "star_dist": {
+        "1": 1,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 0
+      },
+      "quotes": [
+        {
+          "stars": 3,
+          "date": "2025-12-26",
+          "snippet": "Good for 1 car, but is it truly 1300GSM?：Compared to other towels I've purchased, the 1300GSM claim seems to be under what my other drying towels fee…"
+        },
+        {
+          "stars": 1,
+          "date": "2024-12-10",
+          "snippet": "…nd a waste of money . I buy cheaper , less thick , smaller sized ones from Amazon that do a way way way better job than this stupid towel."
+        },
+        {
+          "stars": 3,
+          "date": "2025-09-29",
+          "snippet": "Meh not big：Great but it’s not as big as expected!"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 1,
+          "date": "2024-12-10",
+          "vp": true,
+          "title": "This towel is HORRIBLE don’t let TikTok fool you",
+          "body": "This towel is garbage and a waste of money . I buy cheaper , less thick , smaller sized ones from Amazon that do a way way way better job than this stupid towel."
+        },
+        {
+          "stars": 3,
+          "date": "2025-09-29",
+          "vp": true,
+          "title": "Meh not big",
+          "body": "Great but it’s not as big as expected!"
+        },
+        {
+          "stars": 3,
+          "date": "2025-12-26",
+          "vp": true,
+          "title": "Good for 1 car, but is it truly 1300GSM?",
+          "body": "Compared to other towels I've purchased, the 1300GSM claim seems to be under what my other drying towels feel like. I don't have any way to scientifically test this, but it is a little disappointing.Overall, the fabric is good enough to fully dry off one car, but when I needed to do more than 1 sedan-sized vehicle, the towel started struggling, which adds to my assumption that the 1300GSM claim may be wrong. Be wary."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "pos",
+      "label": "👍 一遍擦干 & 超吸水（好评） · 一遍擦干 / 免拧",
+      "terms": [
+        "one pass",
+        "without wringing",
+        "no wringing",
+        "soaks up",
+        "absorbs",
+        "absorbent",
+        "thirsty"
+      ],
+      "count": 18,
+      "avg": 4.94,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 17
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2026-05-26",
+          "snippet": "…ve chemicals or debris on them, kinda ruins the way it absorbs water. That’s the same that can be said for any towel tho, so if you have rags/towels specific to drying…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-08",
+          "snippet": "Heavy, Thirsty Towels!：My husband asked me to order one for each of our vehicles and I must say I am pleased with the qualit…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "snippet": "5 Stars – Massive, Absorbent, and Exactly as Advertised：LOVE this towel. The Blackline 24” x 36” Twisted-Loop Car Drying Towel is absolute…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-16",
+          "snippet": "…ackage. It made quick work of drying my car. Very absorbent. And best of all left no streaks or water marks."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-23",
+          "snippet": "…quality and it’s reusable, so it lasts a long time. One pass is all you need to dry your car clean."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 4,
+          "date": "2025-11-20",
+          "vp": true,
+          "title": "Super thick & absorbent",
+          "body": "This towel works great but it’s so heavy it’s almost awkward to use"
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-23",
+          "vp": true,
+          "title": "Overall, highly recommended if you want a towel that actually works.",
+          "body": "The Blackline 24”x36” twisted-loop drying towel is a really good product. It dries fast, leaves no streaks, and doesn’t leave lint behind. The microfiber feels high quality and it’s reusable, so it lasts a long time. One pass is all you need to dry your car clean."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-24",
+          "vp": true,
+          "title": "Superior drying cloth",
+          "body": "Super absorbent, leaves no streaks!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-12",
+          "vp": false,
+          "title": "It soaks up all the water game changer",
+          "body": "I’ve always used just a bathroom towel on my vehicles.!This towel hands down a game changer holy!! 5 star 5 star"
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-14",
+          "vp": true,
+          "title": "Siper recommend!",
+          "body": "Love this! 10/10 it dried in one swipe and leave no steak. Super absorbent, leaving no makr. Decent size. Recommend !"
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-17",
+          "vp": true,
+          "title": "Very absorbent towel",
+          "body": "I enjoy drying off my vehicle with this product. Very absorbent and washes easy! High recommend."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-06",
+          "vp": true,
+          "title": "Great towel",
+          "body": "Very absorbent and works perfectly"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-08",
+          "vp": true,
+          "title": "Heavy, Thirsty Towels!",
+          "body": "My husband asked me to order one for each of our vehicles and I must say I am pleased with the quality of this towel. As directed, we washed first with the suggested Blackline detergent. The towels left no residue or streaks and our vehicles are as shiny as the day we purchased. I am hoping the towels hold their own because my husband has burned a considerable amount of money over the years with other vendors. So far, we are happy with this purchase."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "vp": true,
+          "title": "5 Stars – Massive, Absorbent, and Exactly as Advertised",
+          "body": "LOVE this towel. The Blackline 24” x 36” Twisted-Loop Car Drying Towel is absolutely as described. It’s large, super absorbent, and made drying our ’25 Escalade Sport Platinum incredibly easy. It handled the size of the vehicle with ease and made quick work of the job without feeling saturated too fast. If you want a quality drying towel that performs like it should, this one delivers. Highly recommend."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-10",
+          "vp": false,
+          "title": "You need this.",
+          "body": "Both my vehicles are black. One pass drying with no streaks. Well worth it."
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-03",
+          "vp": true,
+          "title": "Highly recommend",
+          "body": "As advertised. This thing is a one pass and it’s dry. Makes drying your car easy! I need to buy two more!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-11",
+          "vp": true,
+          "title": "Best Drying Towel!",
+          "body": "This is the best drying towel I've used. All the towels I've used before stopped drying well once saturated. This towel soaks up all water on my full size pickup, including the hard tonneau cover without leaving a drop. I would definitely recommend this towel."
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-14",
+          "vp": true,
+          "title": "No streaking, not wringing out",
+          "body": "Dryed my ford explorer stem to stern.No streaks, no wringing out!Highly recommend"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-05",
+          "vp": true,
+          "title": "Great towel",
+          "body": "Brother recommended. Now I have two. Absorbent. Thick. Great for drying your vehicle after a bath"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-07",
+          "vp": true,
+          "title": "Great quality!!",
+          "body": "Awesome !! In the past I would need several drying towels or my leaf blower to dry my full size pickup…This Blackline towel drys my entire truck…with NO wringing !!!Great product and highly recommend!!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-16",
+          "vp": true,
+          "title": "Car towel",
+          "body": "I get serious with my car care. And decided to level up my car drying process after seeing the Blackline microfiber towel advertised. Super soft out of the package. It made quick work of drying my car. Very absorbent. And best of all left no streaks or water marks."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-26",
+          "vp": false,
+          "title": "Pretty good, take care of it and it’ll take care of you",
+          "body": "I’m a professional detailer for a collision repair shop, I clean cars after they’ve been fixed. We use these a good bit on the cars we do when they’re done being washed, they’re great. Just make sure you wash them separately from other towels that might have chemicals or debris on them, kinda ruins the way it absorbs water. That’s the same that can be said for any towel tho, so if you have rags/towels specific to drying your car you should be washing them separately anyways. Will not scratch your car, pretty simple to use, size makes it easier to dry cars quickly, especially if you’re a smaller person and would typically have to reach across the hood or roof to get it fully dried. Pretty much the standard as far what the texture of a towel should be for using on a car if you’re serious about taking care of your paint, tons of other “microfiber” towels say they won’t scratch and do. I’ve used tons of different kinds of towels and rags, these are by far the best to use for drying. Definitely make sure you clean the car thoroughly tho because you do not want hard objects like rock or dirt to stick to the towel because you will scratch your paint, that will happen with anything you use so just be careful and mindful. Overall, 10/10. If they weren’t as expensive as they are, I’d probably have about a dozen of them for work and a couple for myself"
+        },
+        {
+          "stars": 5,
+          "date": "2026-06-03",
+          "vp": true,
+          "title": "Must have",
+          "body": "Must buy! Dry your car fast and easy, with one pass."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "pos",
+      "label": "✨ 无条痕 & 漆面安全（好评） · 无条痕 / 无划痕 / 柔软",
+      "terms": [
+        "streak free",
+        "no streaks",
+        "no scratches",
+        "scratch free",
+        "soft on",
+        "gentle on paint"
+      ],
+      "count": 18,
+      "avg": 4.89,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 16
+      },
+      "quotes": [
+        {
+          "stars": 4,
+          "date": "2026-02-15",
+          "snippet": "…with one towel. Absorption is strong and it feels soft on the paint.The performance falls short of the hype. It leaves light streaks in certain areas. You can see it i…"
+        },
+        {
+          "stars": 4,
+          "date": "2025-07-28",
+          "snippet": "…It dried my entire Large sedan (bmw m5) and left no streaks or water spots so if you want the product get it BUTTT its not perfect thats why I chose 4 stars. Idk if its…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-19",
+          "snippet": "…hose adds about going over the hood one time with no streaks and dries fast. But I bought one and to my surprise, it did it's job and I got rid of the long time Chamois w…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-29",
+          "snippet": "…r great materials , everything maker states about streak free drying is true…super great materials used in construction… stays in place while drying … highly recommend thi…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-10",
+          "snippet": "…long time of washing. Also the towel is extremely soft on my cars paint and doesn’t leave any micro scratches."
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 4,
+          "date": "2025-07-28",
+          "vp": true,
+          "title": "Works great maybe quality issues.",
+          "body": "First the product does work and works well. It dried my entire Large sedan (bmw m5) and left no streaks or water spots so if you want the product get it BUTTT its not perfect thats why I chose 4 stars. Idk if its a quality control issue or what but I had about 5 to 6 loose strings coming from the towel that I had to cut off. The appeard to be extra where after sewing it was ment to be cut but wasn't not a major deal but I wonder how that will effect the long-term of the product and if after some washes if it'll fall apart.TLDR: product works great but some quality control issues."
+        },
+        {
+          "stars": 4,
+          "date": "2026-02-15",
+          "vp": true,
+          "title": "Good towel. Not perfect. If you expect a single pass spotless dry, this misses a bit.",
+          "body": "I bought the Blackline drying towel. For my first pull on my hood after a wash. It works. I dried the entire car with one towel. Absorption is strong and it feels soft on the paint.The performance falls short of the hype. It leaves light streaks in certain areas. You can see it in my video. I had to make a second pass on panels to get a clean finish.What I noticed:• Great water pickup on the first pass• Safe on paint with no scratching• Large size makes drying fast• Streaking on darker panels• Requires a quick follow up wipe in spotsGood towel. Not perfect. If you expect a single pass spotless dry, this misses a bit. If you are fine doing a quick second wipe, it does the job well."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-23",
+          "vp": true,
+          "title": "Overall, highly recommended if you want a towel that actually works.",
+          "body": "The Blackline 24”x36” twisted-loop drying towel is a really good product. It dries fast, leaves no streaks, and doesn’t leave lint behind. The microfiber feels high quality and it’s reusable, so it lasts a long time. One pass is all you need to dry your car clean."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-24",
+          "vp": true,
+          "title": "Superior drying cloth",
+          "body": "Super absorbent, leaves no streaks!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-26",
+          "vp": true,
+          "title": "Great product",
+          "body": "I was not sure bout buying this . I seen the ADs on IG but it seem to good to be true . Until I decided to buy it and what can I say left me 😱 dried up my car within minutes no streaks left behind."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-04",
+          "vp": true,
+          "title": "One and done",
+          "body": "Able to dry entire car with one towel! Leaves no streaks! Will probably purchase another one!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-07",
+          "vp": true,
+          "title": "Dries vehicles quickly!",
+          "body": "Amazing! The greatest item ever used to dry my vehicle. I have a large SUV and this dries it in minutes, streak free!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-10",
+          "vp": false,
+          "title": "You need this.",
+          "body": "Both my vehicles are black. One pass drying with no streaks. Well worth it."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-10",
+          "vp": true,
+          "title": "Best drying towel ever!!",
+          "body": "10/10 product. Definitely is good as advertised. Love drying my car with it, holds a lot of water, and is very big! It takes me a lot less time to dry my car after a long time of washing. Also the towel is extremely soft on my cars paint and doesn’t leave any micro scratches."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-12",
+          "vp": true,
+          "title": "Great product",
+          "body": "Dries car quick no streaks"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-16",
+          "vp": true,
+          "title": "High quality towel for cars",
+          "body": "Does a great job, no streaks!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-29",
+          "vp": true,
+          "title": "Best car drying towel !!!",
+          "body": "Wow. !!! Best drying cloth I have ever owned ! Super great materials , everything maker states about streak free drying is true…super great  materials used in construction… stays in place while drying … highly recommend this product … pricey but worth every penny … will buy another one"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-07",
+          "vp": true,
+          "title": "Excellent Results",
+          "body": "Excellent product providing excellent results.Truely streak free cleaning."
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-14",
+          "vp": true,
+          "title": "No streaking, not wringing out",
+          "body": "Dryed my ford explorer stem to stern.No streaks, no wringing out!Highly recommend"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-19",
+          "vp": true,
+          "title": "Doubts about this towel...",
+          "body": "I had doubts about this product, seeing all those adds about going over the hood one time with no streaks and dries fast. But I bought one and to my surprise, it did it's job and I got rid of the long time Chamois which I thought was the best drying towel  of all time. This Blackline towel was a great invention, it usually took me about 20 minutes to finish drying with the Chamois, but now it took me about 5 minutes I was stun. I am a satisfied customer and you will be very happy when you getthis for your car, I guarantee!!!!!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-25",
+          "vp": true,
+          "title": "Great drying towel",
+          "body": "Got this for my husband for Christmas. He absolutely loves it for his car. He says it's the best drying towel he's had. Works great and leaves no streaks . Worth the price and great quality."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-05",
+          "vp": true,
+          "title": "As expected",
+          "body": "As expected wipes streak free but gets heavy with wiping down. would suggest putting in washer spin to get water out since its hard to wring out"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-16",
+          "vp": true,
+          "title": "Car towel",
+          "body": "I get serious with my car care. And decided to level up my car drying process after seeing the Blackline microfiber towel advertised. Super soft out of the package. It made quick work of drying my car. Very absorbent. And best of all left no streaks or water marks."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "pos",
+      "label": "📐 大尺寸 & 高效（好评） · 尺寸大 / 省时高效",
+      "terms": [
+        "large",
+        "huge",
+        "big enough",
+        "covers",
+        "fast",
+        "less time"
+      ],
+      "count": 14,
+      "avg": 4.79,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 3,
+        "5": 11
+      },
+      "quotes": [
+        {
+          "stars": 4,
+          "date": "2026-02-15",
+          "snippet": "…the first pass• Safe on paint with no scratching• Large size makes drying fast• Streaking on darker panels• Requires a quick follow up wipe in spotsGood towel. Not p…"
+        },
+        {
+          "stars": 4,
+          "date": "2025-07-28",
+          "snippet": "…duct does work and works well. It dried my entire Large sedan (bmw m5) and left no streaks or water spots so if you want the product get it BUTTT its not perfect tha…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-19",
+          "snippet": "…over the hood one time with no streaks and dries fast. But I bought one and to my surprise, it did it's job and I got rid of the long time Chamois which I thought…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-26",
+          "snippet": "Must have, especially if you have a larger vehicle!：How have I been drying my car all this time with little microfiber towels?! For my hatchback, after…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "snippet": "…Car Drying Towel is absolutely as described. It’s large, super absorbent, and made drying our ’25 Escalade Sport Platinum incredibly easy. It handled the size of th…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 4,
+          "date": "2025-07-28",
+          "vp": true,
+          "title": "Works great maybe quality issues.",
+          "body": "First the product does work and works well. It dried my entire Large sedan (bmw m5) and left no streaks or water spots so if you want the product get it BUTTT its not perfect thats why I chose 4 stars. Idk if its a quality control issue or what but I had about 5 to 6 loose strings coming from the towel that I had to cut off. The appeard to be extra where after sewing it was ment to be cut but wasn't not a major deal but I wonder how that will effect the long-term of the product and if after some washes if it'll fall apart.TLDR: product works great but some quality control issues."
+        },
+        {
+          "stars": 4,
+          "date": "2025-12-30",
+          "vp": true,
+          "title": "Need more than two of these",
+          "body": "Good towel for drying a small car. Not the super soaker it is made out to be in the listing and some reviews. I used it on a large SUV and I think I’ll need 3x to dry properly without the towel saturating."
+        },
+        {
+          "stars": 4,
+          "date": "2026-02-15",
+          "vp": true,
+          "title": "Good towel. Not perfect. If you expect a single pass spotless dry, this misses a bit.",
+          "body": "I bought the Blackline drying towel. For my first pull on my hood after a wash. It works. I dried the entire car with one towel. Absorption is strong and it feels soft on the paint.The performance falls short of the hype. It leaves light streaks in certain areas. You can see it in my video. I had to make a second pass on panels to get a clean finish.What I noticed:• Great water pickup on the first pass• Safe on paint with no scratching• Large size makes drying fast• Streaking on darker panels• Requires a quick follow up wipe in spotsGood towel. Not perfect. If you expect a single pass spotless dry, this misses a bit. If you are fine doing a quick second wipe, it does the job well."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-23",
+          "vp": true,
+          "title": "Overall, highly recommended if you want a towel that actually works.",
+          "body": "The Blackline 24”x36” twisted-loop drying towel is a really good product. It dries fast, leaves no streaks, and doesn’t leave lint behind. The microfiber feels high quality and it’s reusable, so it lasts a long time. One pass is all you need to dry your car clean."
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-03",
+          "vp": true,
+          "title": "Best towel every!!",
+          "body": "I didn't do a before Pic but the after was awesome.  Best drying towel I've ever purchased! I have a truck and the larger size worked way better than the other drying towels."
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-23",
+          "vp": true,
+          "title": "Super fast to dry your vehicle",
+          "body": "Works just as advertised. Great for my pickup."
+        },
+        {
+          "stars": 5,
+          "date": "2026-02-26",
+          "vp": true,
+          "title": "Must have, especially if you have a larger vehicle!",
+          "body": "How have I been drying my car all this time with little microfiber towels?! For my hatchback, after washing (with this particular car I’m avoiding drive through automated washes)  literally just a few swipes with this huge towel and all good to go! I couldn’t imagine trying to dry large truck or van etc with little towels, if you’re into washing/detailing car yourself, please give these towels a try-A+Great Product!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-07",
+          "vp": true,
+          "title": "Dries vehicles quickly!",
+          "body": "Amazing! The greatest item ever used to dry my vehicle. I have a large SUV and this dries it in minutes, streak free!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "vp": true,
+          "title": "5 Stars – Massive, Absorbent, and Exactly as Advertised",
+          "body": "LOVE this towel. The Blackline 24” x 36” Twisted-Loop Car Drying Towel is absolutely as described. It’s large, super absorbent, and made drying our ’25 Escalade Sport Platinum incredibly easy. It handled the size of the vehicle with ease and made quick work of the job without feeling saturated too fast. If you want a quality drying towel that performs like it should, this one delivers. Highly recommend."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-10",
+          "vp": true,
+          "title": "Best drying towel ever!!",
+          "body": "10/10 product. Definitely is good as advertised. Love drying my car with it, holds a lot of water, and is very big! It takes me a lot less time to dry my car after a long time of washing. Also the towel is extremely soft on my cars paint and doesn’t leave any micro scratches."
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-19",
+          "vp": true,
+          "title": "Doubts about this towel...",
+          "body": "I had doubts about this product, seeing all those adds about going over the hood one time with no streaks and dries fast. But I bought one and to my surprise, it did it's job and I got rid of the long time Chamois which I thought was the best drying towel  of all time. This Blackline towel was a great invention, it usually took me about 20 minutes to finish drying with the Chamois, but now it took me about 5 minutes I was stun. I am a satisfied customer and you will be very happy when you getthis for your car, I guarantee!!!!!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-23",
+          "vp": true,
+          "title": "Impressed",
+          "body": "Works as advertised.  I was able to dry a large SUV and a sports car with one towel!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-01",
+          "vp": true,
+          "title": "Best product",
+          "body": "Best product ever drys fast"
+        },
+        {
+          "stars": 5,
+          "date": "2026-06-03",
+          "vp": true,
+          "title": "Must have",
+          "body": "Must buy! Dry your car fast and easy, with one pass."
+        }
+      ]
+    },
+    {
+      "source": "aspects",
+      "polarity": "pos",
+      "label": "💎 质感 & 专业认可（好评） · 厚实高级 / 专业推荐",
+      "terms": [
+        "plush",
+        "premium",
+        "quality",
+        "detailers",
+        "professional",
+        "worth every penny"
+      ],
+      "count": 16,
+      "avg": 4.56,
+      "low_pct": 0.0,
+      "star_dist": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 7,
+        "5": 9
+      },
+      "quotes": [
+        {
+          "stars": 5,
+          "date": "2026-05-26",
+          "snippet": "…d, take care of it and it’ll take care of you：I’m a professional detailer for a collision repair shop, I clean cars after they’ve been fixed. We use these a good bit on the…"
+        },
+        {
+          "stars": 4,
+          "date": "2025-07-28",
+          "snippet": "Works great maybe quality issues.：First the product does work and works well. It dried my entire Large sedan (bmw m5) and left no strea…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-08",
+          "snippet": "…our vehicles and I must say I am pleased with the quality of this towel. As directed, we washed first with the suggested Blackline detergent. The towels left no residu…"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "snippet": "…b without feeling saturated too fast. If you want a quality drying towel that performs like it should, this one delivers. Highly recommend."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-21",
+          "snippet": "…s down.：Well worth the price. If you want a great quality drying towel for your car, rv, boat then this is your best bet. My husband washed our boat and normally he wi…"
+        }
+      ],
+      "reviews": [
+        {
+          "stars": 4,
+          "date": "2024-09-19",
+          "vp": true,
+          "title": "Quality",
+          "body": "Like it a lot but too expensive"
+        },
+        {
+          "stars": 4,
+          "date": "2025-05-04",
+          "vp": true,
+          "title": "Up keep for quality",
+          "body": "Love the towel just dislike that you have to go buy other detergents to keep up with the quality ."
+        },
+        {
+          "stars": 4,
+          "date": "2025-05-13",
+          "vp": true,
+          "title": "High Quality",
+          "body": "A very good towel but it doesn’t get every drop like most people review. Depending on the paint it might streak. Overall, it is the best towel I have used, just not perfect like advertised."
+        },
+        {
+          "stars": 4,
+          "date": "2025-07-28",
+          "vp": true,
+          "title": "Works great maybe quality issues.",
+          "body": "First the product does work and works well. It dried my entire Large sedan (bmw m5) and left no streaks or water spots so if you want the product get it BUTTT its not perfect thats why I chose 4 stars. Idk if its a quality control issue or what but I had about 5 to 6 loose strings coming from the towel that I had to cut off. The appeard to be extra where after sewing it was ment to be cut but wasn't not a major deal but I wonder how that will effect the long-term of the product and if after some washes if it'll fall apart.TLDR: product works great but some quality control issues."
+        },
+        {
+          "stars": 4,
+          "date": "2025-11-22",
+          "vp": true,
+          "title": "Does it's job but...",
+          "body": "Product feels premium. Works great but after drying couple sections on my truck, I could see some water streaks. Still a good product."
+        },
+        {
+          "stars": 4,
+          "date": "2025-12-07",
+          "vp": true,
+          "title": "Good quality product",
+          "body": "It’s really a good product but I need one more to totally dry up my car. When it’s wet already it leaves some water marks."
+        },
+        {
+          "stars": 4,
+          "date": "2025-12-24",
+          "vp": true,
+          "title": "Good quality but expensive",
+          "body": "This is a good drying towel I was hoping for a better dry finish had to go back over areas that was dried at the end. I have purchased the Sminder two pack that has given me a similar performance at a lower cost. My vehicle is ceramic coated and water sheds off easily. I would purchase again if it was less expensive."
+        },
+        {
+          "stars": 5,
+          "date": "2026-01-23",
+          "vp": true,
+          "title": "Overall, highly recommended if you want a towel that actually works.",
+          "body": "The Blackline 24”x36” twisted-loop drying towel is a really good product. It dries fast, leaves no streaks, and doesn’t leave lint behind. The microfiber feels high quality and it’s reusable, so it lasts a long time. One pass is all you need to dry your car clean."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-08",
+          "vp": true,
+          "title": "Heavy, Thirsty Towels!",
+          "body": "My husband asked me to order one for each of our vehicles and I must say I am pleased with the quality of this towel. As directed, we washed first with the suggested Blackline detergent. The towels left no residue or streaks and our vehicles are as shiny as the day we purchased. I am hoping the towels hold their own because my husband has burned a considerable amount of money over the years with other vendors. So far, we are happy with this purchase."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-09",
+          "vp": true,
+          "title": "5 Stars – Massive, Absorbent, and Exactly as Advertised",
+          "body": "LOVE this towel. The Blackline 24” x 36” Twisted-Loop Car Drying Towel is absolutely as described. It’s large, super absorbent, and made drying our ’25 Escalade Sport Platinum incredibly easy. It handled the size of the vehicle with ease and made quick work of the job without feeling saturated too fast. If you want a quality drying towel that performs like it should, this one delivers. Highly recommend."
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-16",
+          "vp": true,
+          "title": "High quality towel for cars",
+          "body": "Does a great job, no streaks!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-03-29",
+          "vp": true,
+          "title": "Best car drying towel !!!",
+          "body": "Wow. !!! Best drying cloth I have ever owned ! Super great materials , everything maker states about streak free drying is true…super great  materials used in construction… stays in place while drying … highly recommend this product … pricey but worth every penny … will buy another one"
+        },
+        {
+          "stars": 5,
+          "date": "2026-04-25",
+          "vp": true,
+          "title": "Great drying towel",
+          "body": "Got this for my husband for Christmas. He absolutely loves it for his car. He says it's the best drying towel he's had. Works great and leaves no streaks . Worth the price and great quality."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-07",
+          "vp": true,
+          "title": "Great quality!!",
+          "body": "Awesome !! In the past I would need several drying towels or my leaf blower to dry my full size pickup…This Blackline towel drys my entire truck…with NO wringing !!!Great product and highly recommend!!"
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-21",
+          "vp": true,
+          "title": "Best drying towel on the market, hands down.",
+          "body": "Well worth the price.  If you want a great quality drying towel for your car, rv, boat then this is your best bet.  My husband washed our boat and normally he will wax it too since it was in salt water, but this time he was so. pleased with how it looked after drying he skipped the waxing part.  You will not have streaks or spots after using the drying towel."
+        },
+        {
+          "stars": 5,
+          "date": "2026-05-26",
+          "vp": false,
+          "title": "Pretty good, take care of it and it’ll take care of you",
+          "body": "I’m a professional detailer for a collision repair shop, I clean cars after they’ve been fixed. We use these a good bit on the cars we do when they’re done being washed, they’re great. Just make sure you wash them separately from other towels that might have chemicals or debris on them, kinda ruins the way it absorbs water. That’s the same that can be said for any towel tho, so if you have rags/towels specific to drying your car you should be washing them separately anyways. Will not scratch your car, pretty simple to use, size makes it easier to dry cars quickly, especially if you’re a smaller person and would typically have to reach across the hood or roof to get it fully dried. Pretty much the standard as far what the texture of a towel should be for using on a car if you’re serious about taking care of your paint, tons of other “microfiber” towels say they won’t scratch and do. I’ve used tons of different kinds of towels and rags, these are by far the best to use for drying. Definitely make sure you clean the car thoroughly tho because you do not want hard objects like rock or dirt to stick to the towel because you will scratch your paint, that will happen with anything you use so just be careful and mindful. Overall, 10/10. If they weren’t as expensive as they are, I’d probably have about a dozen of them for work and a couple for myself"
+        }
+      ]
+    }
+  ]
+}

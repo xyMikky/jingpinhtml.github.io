@@ -1,0 +1,19 @@
+{
+  "pos": [
+    {"term": "无条痕 / 不留水痕", "match": ["streak free", "no streaks", "not streaks", "no spots", "no water spots"]},
+    {"term": "一遍擦干 / 超吸水", "match": ["one pass", "absorbs", "absorbent", "soaks up", "no wringing", "without wringing", "thirsty"]},
+    {"term": "大尺寸 / 省时高效", "match": ["large", "huge", "big enough", "covers", "less time", "fast"]},
+    {"term": "漆面柔软 / 不划伤", "match": ["soft", "no scratches", "scratch free", "gentle", "no micro"]},
+    {"term": "强烈推荐 / 物有所值", "match": ["best", "recommend", "worth it", "worth every penny", "amazing", "love it"]},
+    {"term": "厚实高级 / 专业认可", "match": ["plush", "premium", "quality", "detailers", "professional", "1300 gsm"]}
+  ],
+  "neg": [
+    {"term": "留条痕 / 深色面板", "match": ["leaves streaks", "streaks", "light streaks", "streaking", "second pass"]},
+    {"term": "怀疑划伤漆面", "match": ["scratches", "scratched", "micro scratches", "put scratches"]},
+    {"term": "吸饱难拧 / 越擦越湿", "match": ["hard to wring", "hard to squeeze", "gets soaked", "spreading water", "wont dry out"]},
+    {"term": "大车不够用", "match": ["big truck", "more than one car", "should have ordered two", "one car only"]},
+    {"term": "偏贵 / 不值", "match": ["not worth", "overpriced", "just a normal", "not worth the money"]},
+    {"term": "营销夸大 / 与广告不符", "match": ["hype", "doesnt do what", "scam", "facebook", "marketing"]},
+    {"term": "尺寸/厚度不及预期", "match": ["smaller", "not as big", "thinner", "feels thin"]}
+  ]
+}

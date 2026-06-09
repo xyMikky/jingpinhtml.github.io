@@ -1,0 +1,58 @@
+{
+  "💧 吸水 & 拧干（痛点）": {
+    "polarity": "neg",
+    "issues": {
+      "吸饱后难拧干 / 越擦越湿": ["hard to wring", "hard to squeeze", "gets soaked", "soaked", "spreading water", "holds too much water", "wont dry out", "hard to dry"],
+      "大车不够用 / 需要两条": ["big truck", "more than one car", "should have ordered two", "struggling", "one car only"]
+    }
+  },
+  "🌀 条痕 & 残留（痛点）": {
+    "polarity": "neg",
+    "issues": {
+      "留条痕 / 深色面板明显": ["leaves streaks", "streaks", "light streaks", "second pass", "darker panels", "streaking"]
+    }
+  },
+  "⚠️ 划痕 & 漆面安全（痛点）": {
+    "polarity": "neg",
+    "issues": {
+      "怀疑划伤漆面": ["scratches", "scratched", "micro scratches", "put scratches", "scratch my"]
+    }
+  },
+  "💰 价格 & 营销（痛点）": {
+    "polarity": "neg",
+    "issues": {
+      "偏贵 / 不值": ["not worth", "overpriced", "not worth the money", "just a normal", "expensive"],
+      "营销夸大 / 与广告不符": ["hype", "doesnt do what", "scam", "facebook", "marketing"]
+    }
+  },
+  "📏 尺寸 & 厚度（痛点）": {
+    "polarity": "neg",
+    "issues": {
+      "比预期小 / 1300GSM 存疑": ["smaller", "not as big", "1300gsm", "thinner", "feels thin"]
+    }
+  },
+  "👍 一遍擦干 & 超吸水（好评）": {
+    "polarity": "pos",
+    "issues": {
+      "一遍擦干 / 免拧": ["one pass", "without wringing", "no wringing", "soaks up", "absorbs", "absorbent", "thirsty"]
+    }
+  },
+  "✨ 无条痕 & 漆面安全（好评）": {
+    "polarity": "pos",
+    "issues": {
+      "无条痕 / 无划痕 / 柔软": ["streak free", "no streaks", "no scratches", "scratch free", "soft on", "gentle on paint"]
+    }
+  },
+  "📐 大尺寸 & 高效（好评）": {
+    "polarity": "pos",
+    "issues": {
+      "尺寸大 / 省时高效": ["large", "huge", "big enough", "covers", "fast", "less time"]
+    }
+  },
+  "💎 质感 & 专业认可（好评）": {
+    "polarity": "pos",
+    "issues": {
+      "厚实高级 / 专业推荐": ["plush", "premium", "quality", "detailers", "professional", "worth every penny"]
+    }
+  }
+}
